@@ -1,0 +1,43 @@
+/* User and pass inputs */
+#login mat-form-field {
+  width: 100%;
+  font-size: 1.15em;
+}
+#login mat-form-field i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#login mat-form-field i.fa-lock {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#login label {
+  left: 3%;
+  color: #546382;
+}
+/* End User and pass inputs */
+
+/* Remember pass */
+#login mat-checkbox{
+  display: flex;
+  float: right;
+}
+#login mat-checkbox .mat-checkbox-inner-container {
+  order: 1;
+  margin-left: 15px;
+}
+/*End remember pass*/
+
+#login #welcome-text {
+  margin-bottom: 15px;
+}
+
+#login #content {
+  width: 85%;
+  padding: 7.5%;
+}
+
