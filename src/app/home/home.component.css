@@ -37,8 +37,13 @@
 /*End header right*/
 
 /*Content*/
+#home {
+  display: flex;
+  flex-direction: column;
+}
 #home #content {
-  padding: 0 7.5% 7.5% 7.5%;
+  padding: 0 7.5%;
+  height: 60vh;
 }
 #home #content .main-button {
   color: white;
@@ -67,6 +72,14 @@
 }
 #home #content .main-button.anim {
   box-shadow: none;
+}
+
+#home #content p {
+  font-family: "Lato";
+  font-weight: 400;
+  color: #55637f;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 /*End content*/

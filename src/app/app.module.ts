@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import {MatButtonModule, MatCheckboxModule, MatMenuModule, MatSelectModule,
-        MatInputModule, MatFormFieldModule } from '@angular/material';
+import {
+  MatButtonModule, MatCheckboxModule, MatMenuModule, MatSelectModule,
+  MatInputModule, MatFormFieldModule, MatDialog, MatDialogModule
+} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import {AppRoutingModule, routableComponents} from './app-routing.module';
@@ -22,7 +24,7 @@ import {CookieService} from 'angular2-cookie/core';
     // Material Design
     BrowserAnimationsModule, MatButtonModule, MatCheckboxModule,
     MatMenuModule, MatSelectModule, FormsModule, MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule, MatDialogModule
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]
