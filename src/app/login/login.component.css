@@ -1,7 +1,37 @@
+/*Login header*/
+#login #headerImage{
+  width: 100%;
+}
+#login #headerImage #loginHeader{
+  width: 100%;
+}
+#login #headerImage .lss-logo {
+  position: absolute;
+  bottom: -13%;
+  margin-left: 40%;
+  width: 20%;
+}
+#login #headerImage {
+  position: relative;
+}
+/*End login login header*/
+/*Login general*/
+#login #welcome-text {
+  margin-bottom: 15px;
+}
+
+#login #content {
+  width: 85%;
+  padding: 7.5%;
+}
+
+/*End login general*/
 /* User and pass inputs */
 #login mat-form-field {
   width: 100%;
-  font-size: 1.15em;
+  font-size: 1em;
+  font-family: "Lato";
+  color: #55637f;
 }
 #login mat-form-field i {
   position: absolute;
@@ -15,16 +45,38 @@
   -webkit-text-stroke-color: black;
 }
 
-#login label {
+#login mat-form-field label {
   left: 3%;
-  color: #546382;
 }
+
+#login input {
+  margin-left: 10px;
+}
+#login mat-form-field.error .mat-input-underline {
+  background-color: #ae1d1a;
+}
+#login mat-form-field.error input {
+  color: #ae1d1a;
+}
+#login mat-form-field.error i {
+  -webkit-text-stroke-color: #ae1d1a;
+}
+
+#login mat-form-field.has-success .mat-input-underline {
+  background-color: #64bc17;
+}
+#login mat-form-field.has-success input, #login mat-form-field.has-success i {
+  color: #64bc17;
+}
+
 /* End User and pass inputs */
 
 /* Remember pass */
 #login mat-checkbox{
   display: flex;
   float: right;
+  font-family: "Lato";
+  color: #929bb0;
 }
 #login mat-checkbox .mat-checkbox-inner-container {
   order: 1;
@@ -32,12 +84,13 @@
 }
 /*End remember pass*/
 
-#login #welcome-text {
-  margin-bottom: 15px;
+/*Entrar button*/
+#login button {
+  width: 100%;
+  height: 62px;
+  margin-top: 30px;
+  color: white;
 }
+/*End entrar button*/
 
-#login #content {
-  width: 85%;
-  padding: 7.5%;
-}
 

@@ -1,0 +1,14 @@
+{
+  "name": "Listado de reparto",
+  "icons": [
+    {
+      "src": "/assets/images/login.jpg",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": 0.75
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "landscape"
+}

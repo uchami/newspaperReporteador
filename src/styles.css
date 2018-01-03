@@ -1,19 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-@import "../node_modules/font-awesome/css/font-awesome.css";
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "../node_modules/lato-font/css/lato-font.min.css";
+@import "../node_modules/typeface-montserrat/index.css";
+
 body {
   margin: 0;
 }
 
 h1 {
   font-size: 3em;
-  margin: 0;
+  margin: 0 0 10px 0;
   text-align: center;
   color: #3b6397;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 h3 {
   text-align: center;
-  font-size: 1.4em;
-  color: #6cbcd5;
+  font-size: 1em;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #6abbd6;
   margin: 0;
+}
+
+.main-button {
+  font-size: 1.4em;
+  font-family: "Lato";
+  color:white;
+  font-weight: 700;
+  background-color: #64bc17;
+  box-shadow: 0px 0px 21px #64bc17;
 }

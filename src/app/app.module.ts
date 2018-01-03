@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import {AppRoutingModule, routableComponents} from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import {FormsModule} from '@angular/forms';
+import {CookieService} from 'angular2-cookie/core';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import {FormsModule} from '@angular/forms';
     MatMenuModule, MatSelectModule, FormsModule, MatInputModule,
     MatFormFieldModule
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private _cookieService:CookieService){}
+}
