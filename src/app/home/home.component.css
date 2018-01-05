@@ -42,32 +42,37 @@
   flex-direction: column;
 }
 #home #content {
-  padding: 0 7.5%;
+  margin: 0 7.5%;
   height: 60vh;
+  position: relative;
 }
+
 #home #content .main-button {
   color: white;
-  width: 100%;
-  height: 62px;
+  height: 12vh;
   text-align: right;
   overflow-x: hidden;
+  left: 7.5%;
+  width: 85%;
+  bottom: 3%;
+  position: fixed;
   -webkit-transition: .6s ease-in-out;
   -moz-transition: .6s ease-in-out;
   -o-transition: .6s ease-in-out;
   transition: .6s ease-in-out;
 }
 
-#home #content button i {
+#home #content .main-button i {
   float: left;
   font-size: 1.4em;
 }
-#home #content button div {
+#home #content .main-button div {
   -webkit-transition: 1.5s ease-in-out;
   -moz-transition: 1.5s ease-in-out;
   -o-transition: 1.5s ease-in-out;
   transition: 1.5s ease-in-out;
 }
-#home #content button div.anim {
+#home #content .main-button div.anim {
   transform: translate(45%,0);
 }
 #home #content .main-button.anim {
@@ -81,5 +86,43 @@
   font-size: 1.2em;
   text-align: center;
 }
+  /*End content*/
+  /*Repartidores select*/
+#home #repartidorSelectButton .mat-button-wrapper {
+  text-align: left;
+  float: left;
+  font-family: "Lato";
+  width: 100%;
+  color: #55637f;
+  font-size: 1.4em;
+}
+#home #repartidorSelectButton .mat-button-wrapper i {
+  float: right;
+  margin-right: 15px;
+  margin-top: 2px;
+  font-size: 1.5em;
+}
+#home #repartidorSelectButton {
+  width: 90%;
+  margin-left: 5%;
+  padding: 21px 24px;
+}
+/*End repartidores select*/
 
-/*End content*/
+/*Totales Repartidor button*/
+#home #totalesRepartidorButton {
+  width: 90%;
+  margin: 15px 5%;
+  border: 1px solid #6abbd6;
+  height: 10vh;
+}
+#home #totalesRepartidorButton .mat-button-wrapper h3 {
+  text-align: left;
+  padding: 0 27px;
+  letter-spacing: 3px;
+}
+#home #totalesRepartidorButton .mat-button-wrapper h3 b {
+  float: right;
+  letter-spacing: normal;
+}
+/*End totales repartidor button*/

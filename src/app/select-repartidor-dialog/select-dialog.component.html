@@ -1,0 +1,11 @@
+<div id="{{componentName}}">
+  <div mat-dialog-title>
+    <h3>{{title}}</h3>
+    <button mat-icon-button (click)="selected(null)"><i class="fa fa-times" aria-hidden="true"></i></button>
+  </div>
+  <div mat-dialog-content>
+    <mat-selection-list *ngFor="let option of options">
+      <mat-list-option (selectionChange)="selected(option.value)" > {{option.name}} </mat-list-option>
+    </mat-selection-list>
+  </div>
+</div>

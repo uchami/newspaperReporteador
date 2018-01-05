@@ -11,16 +11,15 @@
   <div id="content">
     <p>Seleccionar repartidor</p>
 
-    <button mat-raised-button (click)="openDialog()">Pick one</button>
+    <button mat-raised-button (click)="openDialog()" id="repartidorSelectButton">{{(selectedRepartidor != null) ? selectedRepartidor : "¿Quién sos?"}} <i class="fa fa-caret-down" aria-hidden="true"></i></button>
 
-    <button type="button" mat-button>TOTALES DE     <b>BRAIAN</b></button>
+    <button type="button" mat-button id="totalesRepartidorButton"><h3>TOTALES DE <b>{{(selectedRepartidor != null) ? selectedRepartidor : ""}}</b></h3></button>
 
     <button (click)="anim = true" [ngClass]="{'anim':anim}" type="button" mat-button class="main-button">
       <div [ngClass]="{'anim':anim}">
         <i class="fa fa-bicycle" aria-hidden="true"></i>EMPEZAR
       </div>
     </button>
-
   </div>
 </div>
 

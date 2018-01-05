@@ -1,0 +1,36 @@
+
+/* Affecting all dialogs :*( */
+.cdk-overlay-container .cdk-overlay-pane {
+  width: 96vw;
+  max-width: none !important;
+}
+mat-dialog-container {
+  padding: 0!important;
+}
+
+
+/* Styles of my dialog */
+#selectdialog .mat-dialog-title h3 {
+  color: white;
+  margin: 0;
+}
+#selectdialog .mat-dialog-title {
+  background-color: #6abbd6;
+  padding: 24px;
+  margin: 0 0 1px;
+  position: relative;
+}
+#selectdialog .mat-dialog-content {
+  padding: 0;
+  margin: 0;
+}
+#selectdialog .mat-pseudo-checkbox {
+  display: none;
+}
+#selectdialog .mat-dialog-title .mat-icon-button {
+  color: white;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
