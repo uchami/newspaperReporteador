@@ -19,7 +19,6 @@ export class DetalleEdificioComponent implements OnInit {
     var fauxTable = document.getElementById("faux-table");
     var mainTable = document.getElementById("main-table");
     var clonedElement = mainTable.cloneNode(true);
-    clonedElement.id = "";
     fauxTable.appendChild(clonedElement);
   }
 }
