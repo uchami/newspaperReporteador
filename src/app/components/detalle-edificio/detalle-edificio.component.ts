@@ -16,6 +16,11 @@ export class DetalleEdificioComponent implements OnInit {
       var translate = "translate(0,"+this.scrollTop+"px)";
       this.querySelector("thead").style.transform = translate;
     });*/
+    var fauxTable = document.getElementById("faux-table");
+    var mainTable = document.getElementById("main-table");
+    var clonedElement = mainTable.cloneNode(true);
+    clonedElement.id = "";
+    fauxTable.appendChild(clonedElement);
   }
 }
 

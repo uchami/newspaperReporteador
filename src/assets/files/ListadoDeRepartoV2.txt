@@ -284,8 +284,8 @@
                       "publicaciones": [{
                        "nombre": "CLARIN",
                        "feriado": 0,
-                       "suscripcion": 0,
-                       "extra": 0,
+                       "suscripcion": 1,
+                       "extra": 1,
                        "cantidad": 1
                       }]
                    }]
@@ -430,9 +430,9 @@
                                           "observacion": "",
                                          "publicaciones": [{
                                           "nombre": "CLARIN",
-                                          "feriado": 0,
-                                          "suscripcion": 0,
-                                          "extra": 0,
+                                          "feriado": 1,
+                                          "suscripcion": 1,
+                                          "extra": 1,
                                           "cantidad": 1
                                          }]
                                       },
@@ -442,7 +442,7 @@
                                                             "publicaciones": [{
                                                              "nombre": "CLARIN",
                                                              "feriado": 0,
-                                                             "suscripcion": 0,
+                                                             "suscripcion": 1,
                                                              "extra": 0,
                                                              "cantidad": 1
                                                             }]
@@ -452,7 +452,7 @@
                                                                                 "observacion": "",
                                                                                "publicaciones": [{
                                                                                 "nombre": "CLARIN",
-                                                                                "feriado": 0,
+                                                                                "feriado": 1,
                                                                                 "suscripcion": 0,
                                                                                 "extra": 0,
                                                                                 "cantidad": 1
@@ -464,7 +464,7 @@
                                                                                                   "publicaciones": [{
                                                                                                    "nombre": "CLARIN",
                                                                                                    "feriado": 0,
-                                                                                                   "suscripcion": 0,
+                                                                                                   "suscripcion": 1,
                                                                                                    "extra": 0,
                                                                                                    "cantidad": 1
                                                                                                   }]

@@ -1,20 +1,23 @@
-<div id="wrap">
-  <table cellpadding="10" cellspacing="0">
+<div id="faux-table" class="faux-table" aria="hidden"></div>
+<div id="table-wrap">
+  <table id="main-table" cellpadding="10" cellspacing="0">
     <thead class="tableHeaders">
-    <th>DEPTO</th>
-    <th>F</th>
-    <th>S</th>
-    <th>E</th>
-    <th>PUBLICACIÓN</th>
+      <th class="deptoNombre">DEPTO</th>
+      <th class="estado">F</th>
+      <th class="estado">S</th>
+      <th class="estado">E</th>
+      <th class="publicacion">PUBLICACIÓN</th>
     </thead>
-    <tbody *ngFor="let depto of edificioActual.departamentos; let i = index;">
-    <tr *ngFor="let pub of edificioActual.departamentos[i].publicaciones; let j = index">
-      <td *ngIf="j == 0" class="deptoNombre" [attr.rowspan]="edificioActual.departamentos[i].publicaciones.length">{{depto.nombre}}</td>
-      <td class="feriado">{{(pub.feriado > 0) ? "F" : ""}}</td>
-      <td class="suscripcion">{{(pub.suscripcion > 0) ? "S" : ""}}</td>
-      <td class="extra">{{(pub.extra > 0) ? "E" : ""}}</td>
-      <td class="publicacion"><b>{{pub.cantidad}}</b> {{pub.nombre}}</td>
-    </tr>
+    <tbody>
+      <ng-container *ngFor="let depto of edificioActual.departamentos; let i = index;">
+        <tr [ngClass]="{'grey': i%2 == 1}" *ngFor="let pub of edificioActual.departamentos[i].publicaciones; let j = index">
+          <td *ngIf="j == 0" class="deptoNombre" [attr.rowspan]="edificioActual.departamentos[i].publicaciones.length">{{depto.nombre}}</td>
+          <td class="estado feriado" [ngClass]="{'active': pub.feriado>0}"><span>{{(pub.feriado > 0) ? "F" : ""}}</span></td>
+          <td class="estado suscripcion" [ngClass]="{'active': pub.suscripcion>0}"><span>{{(pub.suscripcion > 0) ? "S" : ""}}</span></td>
+          <td class="estado extra" [ngClass]="{'active': pub.extra>0}"><span>{{(pub.extra > 0) ? "E" : ""}}</span></td>
+          <td class="publicacion"><b>{{pub.cantidad}}</b> {{pub.nombre}}</td>
+        </tr>
+      </ng-container>
     </tbody>
   </table>
 </div>

@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: white;
+  z-index: 99;
 }
 #detallereparto #headerContent button {
   background-color: #65b2c9;
@@ -35,6 +36,7 @@
   right: 0;
   height: 11vh;
   display: flex;
+  z-index: 99;
 }
 #detallereparto #footerContent #btn-edificios img {
   display: block;
