@@ -2,10 +2,10 @@
   <div id="headerContent">
     <img id="homeLeft" [src]="'../assets/images/homeLeftHeader.png'">
     <div id="headerRight">
-      <h1>Nombre de la parada</h1>
+      <h1>{{nombreParada}}</h1>
       <div class="divider"></div>
-      <h3><b>FECHA LISTADO </b>   27/12/17</h3>
-      <h3><b>ORDENAMIENTO </b>   A-Z</h3>
+      <h3><b>FECHA LISTADO </b>   {{fechaListado}}</h3>
+      <h3><b>ORDENAMIENTO </b>   {{ordenamiento}}</h3>
     </div>
   </div>
   <div id="content">
@@ -13,9 +13,9 @@
 
     <button mat-raised-button (click)="openDialog()" id="repartidorSelectButton">{{(selectedRepartidor != null) ? selectedRepartidor : "¿Quién sos?"}} <i class="fa fa-caret-down" aria-hidden="true"></i></button>
 
-    <button type="button" mat-button id="totalesRepartidorButton"><h3>TOTALES DE <b>{{(selectedRepartidor != null) ? selectedRepartidor : ""}}</b></h3></button>
+    <button type="button" mat-button id="totalesRepartidorButton"><h3>TOTALES DE <b [ngClass]="{'line' : (selectedRepartidor == null)}">{{ selectedRepartidor }}</b></h3></button>
 
-    <button (click)="anim = true" [ngClass]="{'anim':anim}" type="button" mat-button class="main-button">
+    <button (click)="startReparto()" [ngClass]="{'anim':anim}" type="button" mat-button class="main-button">
       <div [ngClass]="{'anim':anim}">
         <i class="fa fa-bicycle" aria-hidden="true"></i>EMPEZAR
       </div>

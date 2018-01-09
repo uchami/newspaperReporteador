@@ -1,0 +1,80 @@
+/*Header*/
+#detallereparto #headerContent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+#detallereparto #headerContent button {
+  background-color: #65b2c9;
+  border: none;
+  padding: 3%;
+  color: white;
+  font-family: "Lato";
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+/*End Header*/
+
+/* Content */
+#detallereparto #content {
+  margin: 11vh 0;
+}
+/* End content */
+
+/* Footer */
+#detallereparto #footerContent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 11vh;
+  display: flex;
+}
+#detallereparto #footerContent #btn-edificios img {
+  display: block;
+  max-height: 42px;
+  margin: 0 auto;
+}
+#detallereparto #footerContent button {
+  color: white;
+  font-size: 1em;
+  padding: 0;
+  border-radius: inherit;
+  border-right: 1px solid #699426;
+}
+#detallereparto #footerContent #btn-anterior {
+  width: 37%;
+}
+#detallereparto #footerContent #btn-siguiente {
+  width: 55%;
+}
+#detallereparto #footerContent #btn-edificios {
+  width: 8%;
+  border-right: none;
+}
+#detallereparto #footerContent button .mat-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+#detallereparto #footerContent #btn-edificios .mat-button-wrapper {
+  display: block;
+}
+#detallereparto #footerContent button .mat-button-wrapper b {
+  margin-right: 5px;
+}
+
+/* End footer */
+
+@media screen and (max-width: 360px) {
+  #detallereparto #footerContent button {
+    font-size: .8em;
+  }
+}

@@ -3,6 +3,7 @@
 @import "../node_modules/font-awesome/css/font-awesome.min.css";
 @import "../node_modules/lato-font/css/lato-font.min.css";
 @import "../node_modules/typeface-montserrat/index.css";
+@import "../node_modules/typeface-oswald/index.css";
 
 body {
   margin: 0;
@@ -22,6 +23,15 @@ h3 {
   font-family: "Lato";
   font-weight: 400;
   color: #6abbd6;
+  margin: 0;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.3em;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #3b6397;
   margin: 0;
 }
 

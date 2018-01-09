@@ -25,7 +25,7 @@
 
 #home #headerRight .divider {
   width: 100%;
-  height: .8px;
+  height: 1px;
   background-color: #8da0c8;
   margin: 15px 0;
 }
@@ -92,9 +92,13 @@
   text-align: left;
   float: left;
   font-family: "Lato";
+  white-space: pre-line;
   width: 100%;
   color: #55637f;
   font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #home #repartidorSelectButton .mat-button-wrapper i {
   float: right;
@@ -105,7 +109,7 @@
 #home #repartidorSelectButton {
   width: 90%;
   margin-left: 5%;
-  padding: 21px 24px;
+  min-height: 12vh;
 }
 /*End repartidores select*/
 
@@ -114,15 +118,20 @@
   width: 90%;
   margin: 15px 5%;
   border: 1px solid #6abbd6;
-  height: 10vh;
+  min-height: 10vh;
+}
+#home #totalesRepartidorButton span {
+  white-space: pre-line;
 }
 #home #totalesRepartidorButton .mat-button-wrapper h3 {
-  text-align: left;
-  padding: 0 27px;
   letter-spacing: 3px;
+  font-size: 1.2em;
 }
 #home #totalesRepartidorButton .mat-button-wrapper h3 b {
-  float: right;
   letter-spacing: normal;
+}
+#home #totalesRepartidorButton .mat-button-wrapper h3 b.line:before {
+  content:"__________________";
+  letter-spacing: -2px;
 }
 /*End totales repartidor button*/

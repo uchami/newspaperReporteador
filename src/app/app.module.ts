@@ -3,32 +3,40 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import {
   MatButtonModule, MatCheckboxModule, MatMenuModule, MatSelectModule,
-  MatInputModule, MatFormFieldModule, MatDialogModule, MatListModule
+  MatInputModule, MatFormFieldModule, MatDialogModule, MatListModule,
+  MatTableModule
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import {AppRoutingModule, routableComponents} from './app-routing.module';
-import {HomeComponent} from './home/home.component';
+import {HomeComponent} from './components/home/home.component';
 import {FormsModule} from '@angular/forms';
 import {CookieService} from 'angular2-cookie/core';
-import { SelectDialogComponent } from './select-repartidor-dialog/select-dialog.component';
+import { SelectDialogComponent } from './components/select-repartidor-dialog/select-dialog.component';
+import {ReadRepartoFileService} from './services/read-reparto-file.service';
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { DetalleRepartoComponent } from './components/detalle-reparto/detalle-reparto.component';
+import { DetalleEdificioComponent } from './components/detalle-edificio/detalle-edificio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     routableComponents,
     HomeComponent,
-    SelectDialogComponent
+    SelectDialogComponent,
+    DetalleRepartoComponent,
+    DetalleEdificioComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
+    HttpClientModule,
     // Material Design
     BrowserAnimationsModule, MatButtonModule, MatCheckboxModule,
     MatMenuModule, MatSelectModule, FormsModule, MatInputModule,
-    MatFormFieldModule, MatDialogModule, MatListModule
+    MatFormFieldModule, MatDialogModule, MatListModule, MatTableModule
   ],
-  providers: [CookieService],
+  providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent ],
   bootstrap: [AppComponent],
   entryComponents: [SelectDialogComponent]
 })

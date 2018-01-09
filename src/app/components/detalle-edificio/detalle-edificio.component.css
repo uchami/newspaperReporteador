@@ -1,0 +1,49 @@
+/*General*/
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: "Lato";
+  border-collapse:collapse;
+
+}
+thead {
+  background-color: #a1a1b6;
+  color: white;
+  text-align: left;
+  box-shadow: inset 0 3px 30px -12px #000;
+}
+.tableHeaders {
+  line-height: 8vh;
+}
+#wrap {
+  overflow: auto;
+  height: 78vh;
+}
+
+tbody tr td.publicacion {
+  text-align: left;
+  font-family: "Oswald";
+}
+/*End general*/
+/*Separadores*/
+tbody tr td.deptoNombre {
+  vertical-align: top;
+  border-right: 1px solid #bfc1ce;
+  font-family: "Oswald";
+  font-size: 2em;
+}
+tbody tr td {
+  border-bottom: 1px solid #bfc1ce;
+}
+tbody tr td.extra {
+  border-right: 1px solid #bfc1ce;
+}
+
+/*End separadores*/
+
+/*Pintar impares*/
+tbody:nth-child(odd){
+ background-color: #d4d8df;
+}
+/*End pintar impares*/

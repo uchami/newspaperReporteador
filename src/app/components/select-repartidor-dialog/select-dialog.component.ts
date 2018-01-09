@@ -1,8 +1,6 @@
 import {Component, Inject, OnInit, ViewEncapsulation} from '@angular/core';
 import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
-import {ComponentNamer} from '../app.component';
-import {Observable} from 'rxjs/Observable';
-import 'rxjs/add/observable/interval';
+import {ComponentNamer} from '../../app.component';
 
 @Component({
   selector: 'app-select-dialog',

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {ComponentNamer} from '../app.component';
 import {ViewEncapsulation} from '@angular/core';
 import {Router} from '@angular/router';
+import {ComponentNamer} from '../../app.component';
 
 @Component({
   selector: 'app-login',
