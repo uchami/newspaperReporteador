@@ -30,6 +30,16 @@ export class ReadRepartoFileService {
    return res;
   }
 
+  getEdificios() {
+    var repId = this.getRepartidorId();
+    var res = [];
+    var edificios = this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId).edificios;
+    for (var i = 0; i <  edificios.length; i++){
+      res.push({"name":edificios[i].direccion, "value": i});
+    }
+    return res;
+  }
+
   getCabeceraReporte() {
     return this.reparto.cabeceraReporte;
   }
@@ -75,9 +85,6 @@ export class ReadRepartoFileService {
   getEdificioActual(){
     var repId = this.getRepartidorId();
     var indexEd = this.getIndexEdificio();
-    console.log("repId", repId);
-    console.log("indexEd", indexEd);
-    console.log(this.reparto);
     var edActual = this.reparto.cuerpoReporte.repartidores[repId].edificios[indexEd];
     var direc = edActual.direccion;
     direc = direc.slice(0, direc.lastIndexOf(" "));

@@ -30,7 +30,6 @@ export class HomeComponent extends ComponentNamer implements OnInit {
   constructor(public dialog: MatDialog, private readRepartoFileService: ReadRepartoFileService, private router: Router) {
     super();
   }
-
   ngOnInit() {
     this.readRepartoFileService.getReparto().subscribe( data => {
       this.repartidores = this.readRepartoFileService.getRepartidores();
@@ -49,8 +48,8 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     });
     selectDialogRef.afterClosed().subscribe(result => {
       if(result != null){
-          this.selectedRepartidor = this.repartidores.find(r => r.value == result).name;
-          this.selectedRepartidorId = result;
+          this.selectedRepartidor = result.name;
+          this.selectedRepartidorId = result.value;
           if(this.selectedRepartidor.length > 30){
               this.selectedRepartidor = this.selectedRepartidor.substr(0,26) + '...';
           }

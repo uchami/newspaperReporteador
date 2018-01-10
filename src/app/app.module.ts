@@ -17,6 +17,7 @@ import {ReadRepartoFileService} from './services/read-reparto-file.service';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { DetalleRepartoComponent } from './components/detalle-reparto/detalle-reparto.component';
 import { DetalleEdificioComponent } from './components/detalle-edificio/detalle-edificio.component';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { DetalleEdificioComponent } from './components/detalle-edificio/detalle-
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
+    NoopAnimationsModule,
     // Material Design
     BrowserAnimationsModule, MatButtonModule, MatCheckboxModule,
     MatMenuModule, MatSelectModule, FormsModule, MatInputModule,

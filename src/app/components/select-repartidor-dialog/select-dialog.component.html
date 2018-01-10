@@ -1,11 +1,15 @@
 <div id="{{componentName}}">
   <div mat-dialog-title>
     <h3>{{title}}</h3>
-    <button mat-icon-button (click)="selected(null)"><i class="fa fa-times" aria-hidden="true"></i></button>
+    <button mat-icon-button (click)="closeModal()"><i class="fa fa-times" aria-hidden="true"></i></button>
   </div>
   <div mat-dialog-content>
-    <mat-selection-list *ngFor="let option of options">
-      <mat-list-option (selectionChange)="selected(option.value)" > {{option.name}} </mat-list-option>
-    </mat-selection-list>
+    <!--<mat-selection-list #matSelect (selectionChange)="onSelectedOptionsChange(matSelect)">
+      <mat-list-option *ngFor="let option of options" [value]="option.value"> {{option.name}} </mat-list-option>
+    </mat-selection-list>-->
+    <mat-list>
+      <mat-list-item *ngFor="let option of options" (click)="selected(option)">
+        <button mat-button> {{option.name}} </button></mat-list-item>
+    </mat-list>
   </div>
 </div>

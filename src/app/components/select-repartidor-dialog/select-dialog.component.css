@@ -24,8 +24,17 @@ mat-dialog-container {
   padding: 0;
   margin: 0;
 }
-#selectdialog .mat-pseudo-checkbox {
-  display: none;
+#selectdialog .mat-list-item .mat-button {
+  padding: 0 32px;
+  width: 100%;
+  text-align: left;
+  height: 100%;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 1em;
+}
+#selectdialog .mat-list-item-content{
+  padding: 0;
 }
 #selectdialog .mat-dialog-title .mat-icon-button {
   color: white;

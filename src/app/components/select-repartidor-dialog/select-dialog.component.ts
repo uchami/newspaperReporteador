@@ -12,6 +12,8 @@ export class SelectDialogComponent extends ComponentNamer implements OnInit {
 
   options = [];
   title = "";
+  selectedOptions;
+
   constructor(public dialogRef: MatDialogRef<SelectDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {
     super();
     this.title = data.title;
@@ -20,6 +22,10 @@ export class SelectDialogComponent extends ComponentNamer implements OnInit {
 
   ngOnInit() {
   }
+  closeModal(){
+    this.selected(null);
+  }
+
   selected(value){
     this.dialogRef.close(value);
   }
