@@ -9,16 +9,17 @@ import {
 
 import { AppComponent } from './app.component';
 import {AppRoutingModule, routableComponents} from './app-routing.module';
-import {FileNotFoundComponent, HomeComponent} from './components/home/home.component';
+import {HomeComponent} from './components/home/home.component';
 import {FormsModule} from '@angular/forms';
 import {CookieService} from 'angular2-cookie/core';
 import { SelectDialogComponent } from './components/select-repartidor-dialog/select-dialog.component';
 import {ReadRepartoFileService} from './services/read-reparto-file.service';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
-import { DetalleRepartoComponent } from './components/detalle-reparto/detalle-reparto.component';
-import { DetalleEdificioComponent } from './components/detalle-edificio/detalle-edificio.component';
+import {HttpClientModule} from '@angular/common/http';
+import {DetalleRepartoComponent } from './components/detalle-reparto/detalle-reparto.component';
+import {DetalleEdificioComponent } from './components/detalle-edificio/detalle-edificio.component';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
+import {MessageDialogComponent } from './components/message-modal/message-dialog.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import {FinalRepartoComponent} from './components/final-reparto/final-reparto.co
     DetalleRepartoComponent,
     DetalleEdificioComponent,
     FinalRepartoComponent,
-    FileNotFoundComponent
+    MessageDialogComponent
   ],
   imports: [
     AppRoutingModule,
@@ -43,7 +44,7 @@ import {FinalRepartoComponent} from './components/final-reparto/final-reparto.co
   ],
   providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent ],
   bootstrap: [AppComponent],
-  entryComponents: [SelectDialogComponent, FileNotFoundComponent]
+  entryComponents: [SelectDialogComponent, MessageDialogComponent]
 })
 export class AppModule {
   constructor(private _cookieService: CookieService) {}

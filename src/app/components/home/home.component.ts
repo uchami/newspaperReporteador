@@ -1,5 +1,5 @@
-import {Component, Inject, OnInit, ViewEncapsulation} from '@angular/core';
-import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from '@angular/material';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {MatDialog} from '@angular/material';
 import {SelectDialogComponent} from '../select-repartidor-dialog/select-dialog.component';
 import {ReadRepartoFileService} from '../../services/read-reparto-file.service';
 import {ComponentNamer} from '../../app.component';
@@ -7,26 +7,9 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/observable/interval';
 import 'rxjs/add/observable/timer';
 import 'rxjs/add/operator/map';
-import {ActivatedRoute, ParamMap, Route, Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import 'rxjs/add/operator/takeWhile';
-
-@Component({
-  selector: 'app-file-not-found',
-  template: '<div mat-dialog-content><h1 [innerHtml]="message"></h1></div>' +
-            '<button (click)="reloadPage()" mat-button class="main-button">Recargar pagina</button> ',
-  styles: ['h1 { font-size: 1.7em; }', '.main-button { width: 100%; height: 62px; margin-top: 10px; }',
-    '.cdk-overlay-container .cdk-overlay-pane { width: 96vw; max-width: none !important;}'],
-  encapsulation: ViewEncapsulation.None
-})
-export class FileNotFoundComponent {
-  message = '';
-  constructor(public dialogRef: MatDialogRef<SelectDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {
-    this.message = data.message;
-  }
-  reloadPage() {
-    this.dialogRef.close();
-  }
-}
+import {MessageDialogComponent} from '../message-modal/message-dialog.component';
 
 
 @Component({
@@ -52,10 +35,11 @@ export class HomeComponent extends ComponentNamer implements OnInit {
   ngOnInit() {
     let error = this.route.snapshot.paramMap.get('error');;
     if (parseInt(error) == 404) {
-      const fileNotFoundRef = this.dialog.open(FileNotFoundComponent, {
+      const fileNotFoundRef = this.dialog.open(MessageDialogComponent, {
         data: {
           message: 'El reparto para hoy no está!<br> Comunicate con quien maneje el programe y pedile que lo suba!<br> ' +
-          'Cuando estés listo recargá la aplicación.'
+          'Cuando estés listo recargá la aplicación.',
+          buttonText: 'Recargar página'
         },
         disableClose: true
       });
@@ -106,7 +90,15 @@ export class HomeComponent extends ComponentNamer implements OnInit {
           goOn = false;
         });
     } else {
-      console.log('No selecciono repartidor');
+      this.repartidorNotSelected();
     }
+  }
+  repartidorNotSelected() {
+    this.dialog.open(MessageDialogComponent, {
+      data: {
+        message: 'No sabemos quién sos!<br> Elegí un repartidor para continuar',
+        buttonText: 'Entendido'
+      }
+    });
   }
 }

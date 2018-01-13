@@ -47,8 +47,17 @@ h2 {
   color:white;
 }
 
-.cdk-overlay-backdrop { transition: none; }
 
+/* Affecting all dialogs :'( */
+.cdk-overlay-container .cdk-overlay-pane {
+  width: 96vw;
+  max-width: none !important;
+}
+mat-dialog-container {
+  padding: 0!important;
+}
+.cdk-overlay-backdrop { transition: none; }
+/* End Affecting all dialogs :'( */
 
 /*Presentation view*/
 

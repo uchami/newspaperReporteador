@@ -42,6 +42,7 @@ tbody tr td.deptoNombre {
   font-family: "Oswald";
   font-size: 1.8em;
   width: 25%;
+  word-break: break-all;
 }
 thead th.deptoNombre {
   width: 25%;

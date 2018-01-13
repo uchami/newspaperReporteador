@@ -23,7 +23,7 @@ export class ReadRepartoFileService {
   constructor(private http: HttpClient, private cookieService: CookieService) {
   }
   getReparto(): Observable<any> {
-    const obs = this.http.get<IReparto>('./assets/files/ListadoDeReparto15.txt');
+    const obs = this.http.get<IReparto>('./assets/files/ListadoDeRepartoV2.txt');
     obs.subscribe(data => {
       console.log(data);
       this.reparto = data;
