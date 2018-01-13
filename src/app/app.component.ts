@@ -13,3 +13,4 @@ export class AppComponent implements OnInit {
 export class ComponentNamer {
   get componentName() { return this.constructor.name.toLowerCase().replace('component', ''); }
 }
+

@@ -38,10 +38,13 @@ h2 {
 .main-button {
   font-size: 1.4em;
   font-family: "Lato";
-  color:white;
   font-weight: 700;
   background-color: #64bc17;
   box-shadow: 0px 0px 21px #64bc17;
+  color: white;
+}
+.main-button span {
+  color:white;
 }
 
 .cdk-overlay-backdrop { transition: none; }

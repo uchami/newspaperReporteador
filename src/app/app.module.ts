@@ -9,7 +9,7 @@ import {
 
 import { AppComponent } from './app.component';
 import {AppRoutingModule, routableComponents} from './app-routing.module';
-import {HomeComponent} from './components/home/home.component';
+import {FileNotFoundComponent, HomeComponent} from './components/home/home.component';
 import {FormsModule} from '@angular/forms';
 import {CookieService} from 'angular2-cookie/core';
 import { SelectDialogComponent } from './components/select-repartidor-dialog/select-dialog.component';
@@ -28,7 +28,8 @@ import {FinalRepartoComponent} from './components/final-reparto/final-reparto.co
     SelectDialogComponent,
     DetalleRepartoComponent,
     DetalleEdificioComponent,
-    FinalRepartoComponent
+    FinalRepartoComponent,
+    FileNotFoundComponent
   ],
   imports: [
     AppRoutingModule,
@@ -42,8 +43,8 @@ import {FinalRepartoComponent} from './components/final-reparto/final-reparto.co
   ],
   providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent ],
   bootstrap: [AppComponent],
-  entryComponents: [SelectDialogComponent]
+  entryComponents: [SelectDialogComponent, FileNotFoundComponent]
 })
 export class AppModule {
-  constructor(private _cookieService:CookieService){}
+  constructor(private _cookieService: CookieService) {}
 }
