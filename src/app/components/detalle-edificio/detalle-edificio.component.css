@@ -5,7 +5,6 @@ table {
   font-size: 1.1em;
   font-family: "Lato";
   border-collapse:collapse;
-
 }
 tr{
   width: 100%;
@@ -32,6 +31,7 @@ tbody tr td.publicacion {
   text-align: left;
   font-family: "Oswald";
   width: 45%;
+  word-break: break-all;
 }
 thead th.publicacion {
   width: 45%;
@@ -42,6 +42,7 @@ tbody tr td.deptoNombre {
   font-family: "Oswald";
   font-size: 1.8em;
   width: 25%;
+  font-weight: 300;
 }
 thead th.deptoNombre {
   width: 25%;

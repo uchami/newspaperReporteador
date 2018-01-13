@@ -5,6 +5,7 @@ import {IEdificio} from '../../interfaces/IEdificio';
 import {DetalleEdificioComponent} from '../detalle-edificio/detalle-edificio.component';
 import {SelectDialogComponent} from '../select-repartidor-dialog/select-dialog.component';
 import {MatDialog} from '@angular/material';
+import {ITotal} from '../../interfaces/ITotal';
 
 @Component({
   selector: 'app-detalle-reparto',
@@ -15,8 +16,13 @@ import {MatDialog} from '@angular/material';
 export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
 
   viewDetalle = true;
+  totalesButtonText = "TOTALES";
   edificioActual : IEdificio;
   todosLosEdificios = [];
+  titleTotales = "TOTALES DEL EDIFICIO";
+  indexEdificio = -1;
+  lengthEdificios = -1;
+
   constructor(private readRepartoFileService : ReadRepartoFileService, private dialog : MatDialog) {
     super();
     this.edificioActual = {direccion:"", departamentos:[], totalesEdificio:[]};
@@ -25,6 +31,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   ngOnInit() {
     this.readRepartoFileService.getReparto().subscribe( data => {
       this.edificioActual = this.readRepartoFileService.getEdificioActual();
+      this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
       this.todosLosEdificios = this.readRepartoFileService.getEdificios();
       scrollTo(0,0);
     });
@@ -32,10 +39,12 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
 
   nextEdificio(){
     this.readRepartoFileService.setNextIndexEdificio();
+    this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
     this.edificioActual = this.readRepartoFileService.getEdificioActual();
   }
   prevEdificio(){
     this.readRepartoFileService.setPrevIndexEdificio();
+    this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
     this.edificioActual = this.readRepartoFileService.getEdificioActual();
   }
   showEdificioSelect(){
@@ -46,9 +55,19 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
       }
     });
     selectDialogRef.afterClosed().subscribe(result => {
-      //navigate to edificio
-      console.log(result);
+      if(result != null){
+        //navigate to edificio
+        this.readRepartoFileService.setIndexEdificio(result.value);
+        this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
+        this.edificioActual = this.readRepartoFileService.getEdificioActual();
+      }
     });
   }
 
+  toggleViewDetalle() {
+    this.viewDetalle = !this.viewDetalle;
+    this.totalesButtonText = (this.viewDetalle) ? "TOTALES" : "<img src='./assets/images/left-arrow.png'>";
+  }
 }
+
+

@@ -10,11 +10,12 @@ export class ReadRepartoFileService {
   reparto : IReparto;
   repartidorId : number;
   indexEdificio : number;
+  lengthEdficios: number;
 
   constructor(private http: HttpClient, private cookieService: CookieService) {
   }
   getReparto(): Observable<any> {
-    var obs = this.http.get<IReparto>("./assets/files/ListadoDeRepartoV2.txt");
+    var obs = this.http.get<IReparto>("./assets/files/ListadoDeReparto2.Txt");
     obs.subscribe(data => {
       this.reparto = data;
     });
@@ -33,10 +34,12 @@ export class ReadRepartoFileService {
   getEdificios() {
     var repId = this.getRepartidorId();
     var res = [];
+    console.log(this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId));
     var edificios = this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId).edificios;
     for (var i = 0; i <  edificios.length; i++){
       res.push({"name":edificios[i].direccion, "value": i});
     }
+    this.lengthEdficios = edificios.length;
     return res;
   }
 
@@ -73,11 +76,17 @@ export class ReadRepartoFileService {
   }
   setNextIndexEdificio(){
     this.indexEdificio++;
+    if(this.indexEdificio >= this.lengthEdficios){
+      this.indexEdificio--;
+    }
     this.cookieService.remove("indexEdificio");
     this.cookieService.put("indexEdificio", this.indexEdificio.toString());
   }
   setPrevIndexEdificio(){
     this.indexEdificio--;
+    if(this.indexEdificio < 0){
+      this.indexEdificio = 0;
+    }
     this.cookieService.remove("indexEdificio");
     this.cookieService.put("indexEdificio", this.indexEdificio.toString());
   }
@@ -85,7 +94,7 @@ export class ReadRepartoFileService {
   getEdificioActual(){
     var repId = this.getRepartidorId();
     var indexEd = this.getIndexEdificio();
-    var edActual = this.reparto.cuerpoReporte.repartidores[repId].edificios[indexEd];
+    var edActual = Object.create(this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId).edificios[indexEd]);
     var direc = edActual.direccion;
     direc = direc.slice(0, direc.lastIndexOf(" "));
     edActual.direccion = direc + edActual.direccion.replace(direc, "").bold();

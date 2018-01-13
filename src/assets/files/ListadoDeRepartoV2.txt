@@ -1288,9 +1288,9 @@
                     "nombre": "Brixton",
                     "observacion": "ENTREGAR 7 Y 30",
                       "publicaciones": [{
-                       "nombre": "CLARIN",
-                       "feriado": 0,
-                       "suscripcion": 0,
+                       "nombre": "CLARINDEPRUEBACONMUCHOTEXTO",
+                       "feriado": 1,
+                       "suscripcion": 1,
                        "extra": 0,
                        "cantidad": 1
                       },

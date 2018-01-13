@@ -1,0 +1,2737 @@
+{
+    "cabeceraReporte": {
+        "nombreParada": "Parada '7 de noviembre'",
+        "fechaDeReparto": "09/01/2018",
+        "orden": "ORDENADO POR: ORDEN DE REPARTO",
+        "fechaHoraCreacion": "09/01/2018 12:44:55",
+        "incluyeTotalesEdificio": 1
+    },
+       "cuerpoReporte": {
+             "repartidores": [{
+              "repartidorId": 13,
+              "nombreRepartidor": "DANIEL (ENCARG 3390)",
+                "edificios": [{
+                 "direccion": "NEUQUEN 3390",
+                   "departamentos": [{
+                    "nombre": "4 E",
+                    "observacion": "DANIEL DE PARADA - PANAD LOS DOM",
+                      "publicaciones": [{
+                       "nombre": "CRONICA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONICA"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 29,
+                 "nombreRepartidor": "NO SE ENTREGA",
+                "edificios": [{
+                 "direccion": "R S  PEÑA 3380",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "FLETES ABEL - ENTREGAR A LAS 8 HS",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "NACION"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 8,
+                 "nombreRepartidor": "PARADA",
+                "edificios": [{
+                 "direccion": "URUGUAY 3330",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO LA ALFOMBRA DE LA PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URUGUAY 3236",
+                   "departamentos": [{
+                    "nombre": "BIS",
+                    "observacion": "POR VENTANA (TOCAR TIMBRE no antes de 8 hs)",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URUGUAY 3261",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTRADA 871",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTRADA 860",
+                   "departamentos": [{
+                    "nombre": "3",
+                    "observacion": "DEBAJO DE LA PUERTA",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 1118",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "bajo puerta o luego del reparto",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 5,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "ELLE MODA"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 11,
+                 "nombreRepartidor": "ZONA 1-    (CON LLAVE DE NEUQUEN)",
+                "edificios": [{
+                 "direccion": "ESTRADA 1485",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "KIOSCO - GARAGE",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTRADA 1471",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "Lu a Sa en QUINIELA - DOM en local de los BURROS",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CARBONE 3534",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR EN PORCH",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CARBONE 3547",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "GOLPEAR VENTANA DE LA DERECHA AL DEJAR",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3617",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "DEBAJO PUERTA MARRON DE MADERA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3550",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR EN BALCON",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3522",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3506",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANCHORDOQUI 1321",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANCHORDOQUI 1351",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3483",
+                   "departamentos": [{
+                    "nombre": "7 A",
+                    "observacion": "CON LA LLAVE - DEJAR EN PUERTA DPTO",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3474",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO PUERTA -",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3424",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 11,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "ELLE MODA"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 18,
+                 "nombreRepartidor": "ZONA 2-",
+                "edificios": [{
+                 "direccion": "ESTRADA 1024",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "OLE  DEPORTIVO",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "OLE  DEPORTIVO"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTRADA 1044",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 3351",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR x ARRIBA DE PORTON C/LONA",
+                      "publicaciones": [{
+                       "nombre": "PARABRISAS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "PARABRISAS"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEWTON 1024",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR EN HALL ANTES DE LAS 7 HS",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTRADA 1115",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTRADA 1150",
+                   "departamentos": [{
+                    "nombre": "PB FONDO",
+                    "observacion": "BAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTRADA 1140",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "DOM NO SE ENTREGA- CAMBIA x JUEVES C ZONAL",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEWTON 1125",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEWTON 1262",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR POR ARRIBA PORTON",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANSA 3456",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR EN GARAGE",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANCHORDOQUI 1161",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "UMBRAL DE LA PUERTA- con zonal los jueves",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANCHORDOQUI 1160",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANCHORDOQUI 1128",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR ENTRE AUTO Y PTA PRINCIPAL",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANSA 3569",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA LADO IZQUIERDO",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 3606",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BATALLAN 3588",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR POR BALCON  (SOLO PRENSA)",
+                      "publicaciones": [{
+                       "nombre": "LA PRENSA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PRENSA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 3494",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "POR COSTADO DE REJA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 3475",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA REJA - antes de las 7 hs",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 25,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 4,
+                 "publicacion": "ELLE MODA"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "PARABRISAS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRENSA"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 20,
+                 "nombreRepartidor": "ZONA 3-",
+                "edificios": [{
+                 "direccion": "NEWTON 974",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URUGUAY 3435",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PORTON",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MOSCONI 3369",
+                   "departamentos": [{
+                    "nombre": "PB 1",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANCHORDOQUI 898",
+                   "departamentos": [{
+                    "nombre": "3 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URUGUAY 3568",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "R S  PEÑA 3542",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "DEJAR DEBAJO DEL PORTON DEL GARAGE",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 4,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 28,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 6,
+                 "publicacion": "ELLE MODA"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "PARABRISAS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRENSA"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 22,
+                 "nombreRepartidor": "ZONA 4 -   SEBASTIAN",
+                "edificios": [{
+                 "direccion": "BATALLAN 3261",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "EN LA REJA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BATALLAN 2966",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR SOBRE LA REJA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BATALLAN 2884",
+                   "departamentos": [{
+                    "nombre": "1",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BATALLAN 2864",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR EN PORTON",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BATALLAN 2805",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 2979",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "POSTIGO - ANTES 6 am o TOCAR TIMBRE",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 2992",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR (ATENCION SE QUEJO Q NUNCA RECIBE)",
+                      "publicaciones": [{
+                       "nombre": "OLE  DEPORTIVO",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "OLE  DEPORTIVO"
+                   }]
+                   }, 
+                   {
+                    "direccion": "PIO DIAZ 1084",
+                   "departamentos": [{
+                    "nombre": "HIJO",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANSA 2906",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR  SIEMPRE CON BOLSITA (LLUEVA o NO LUEVA)",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "PIO DIAZ 1259",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "EN LA REJA ANTES DE LAS 6 am",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "NEUQUEN 3086",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "(NO DOBLAR EL DIARIO EN BUZON)",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 1320",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PORTON",
+                      "publicaciones": [{
+                       "nombre": "CRONICA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONICA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 1366",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "EN REJA",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LAGE 1357",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "con zonal los jueves - GARAGE",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LAGE 1321",
+                   "departamentos": [{
+                    "nombre": "dto B",
+                    "observacion": "VER COMO SE DEJA Y AVISAR PARA CORREGIR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANSA 3192",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO LA PUERTA",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 1185",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 1145",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PASILLO",
+                      "publicaciones": [{
+                       "nombre": "TIEMPO MILITAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "TIEMPO MILITAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 1064",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANSA 3036",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO PORTON DEL MEDIO EL QUE TIENE LA MANIJA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 3076",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "ENTRAR A PASILLO Y TIRAR a la derecha 1 puerta",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 3176",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR POR REJA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MORIONDO 3265",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LAGE 1174",
+                   "departamentos": [{
+                    "nombre": "DTO 2",
+                    "observacion": "EN PASILLO POR ABAJO DE LA PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CRONICA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONICA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ANSA 3207",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 9,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 39,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 9,
+                 "publicacion": "ELLE MODA"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 6,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 2,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "PARABRISAS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRENSA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "EL PAIS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "TIEMPO MILITAR"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 26,
+                 "nombreRepartidor": "ZONA 5 -",
+                "edificios": [{
+                 "direccion": "LAGE 888",
+                   "departamentos": [{
+                    "nombre": "PA",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "R S  PEÑA 3294",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR - con zonal los jueves",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "R S  PEÑA 3168",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PONER EN DIARIO 15-3895-7718   TIRAR",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS"
+                   }]
+                   }, 
+                   {
+                    "direccion": "R S  PEÑA 3165",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "TIRAR - PONER 3 A  (DEJAR ANTES DE LAS 7 HS)",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 775",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "R S  PEÑA 2937",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "x REJA CON GOMITA o BOLSITA SI LLUEVE",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "SPRINGOLO 857",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "con zonal los jueves / BAJO LA PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "SPRINGOLO 728",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "SPRINGOLO 695",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "ABAJO DE PUERTA NEGRA S/N",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMEGHINO 2956",
+                   "departamentos": [{
+                    "nombre": "6 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMEGHINO 2978",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO PORTON",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "PIO DIAZ 640",
+                   "departamentos": [{
+                    "nombre": "PB C",
+                    "observacion": "tocarle una vez el TIMBRE y DEJARLO EN BUZON",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "PIO DIAZ 618",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA",
+                      "publicaciones": [{
+                       "nombre": "PARABRISAS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "PARABRISAS"
+                   }]
+                   }, 
+                   {
+                    "direccion": "PIO DIAZ 785",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "X REJA CON GOMITA o BOLSA C/LLUVIA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMEGHINO 3037",
+                   "departamentos": [{
+                    "nombre": "PA",
+                    "observacion": "PANADERIA /SI ESTA CERRADO EN 3046 BAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMEGHINO 3090",
+                   "departamentos": [{
+                    "nombre": "B",
+                    "observacion": "PUERTA -  IDENTIFICAR DEPARTAMENTO",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 685",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "ALMACEN - Tirar por abajo de la puerta",
+                      "publicaciones": [{
+                       "nombre": "OLE  DEPORTIVO",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "OLE  DEPORTIVO"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 635",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "dejar en porche escondido q no se vea de la calle",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMEGHINO 3144",
+                   "departamentos": [{
+                    "nombre": "FTE",
+                    "observacion": "POR ABAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CRONICA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONICA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MOSCONI 3192",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "DEJAR EN SEGUNDA VENTANA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "RAFFO 3255",
+                   "departamentos": [{
+                    "nombre": "1",
+                    "observacion": "PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BEAZLEY 466",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MOSCONI 3090",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "EN VENTANA CHIQUITA DE AL LADO DEL GARAGE",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MOSCONI 2969",
+                   "departamentos": [{
+                    "nombre": "PB 3",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MOSCONI 2921",
+                   "departamentos": [{
+                    "nombre": "1 A",
+                    "observacion": "PUERTA -  IDENTIFICAR DEPARTAMENTO",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URUGUAY 3113",
+                   "departamentos": [{
+                    "nombre": "HIJO",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URUGUAY 3142",
+                   "departamentos": [{
+                    "nombre": "1",
+                    "observacion": "TIRAR (GUARDAR LA PARABRISAS EN PUESTO)",
+                      "publicaciones": [{
+                       "nombre": "PARABRISAS",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PARABRISAS"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URUGUAY 3153",
+                   "departamentos": [{
+                    "nombre": "3",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 11,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 58,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 14,
+                 "publicacion": "ELLE MODA"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 6,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "PARABRISAS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRENSA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 2,
+                 "publicacion": "EL PAIS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "TIEMPO MILITAR"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 27,
+                 "nombreRepartidor": "ZONA 6 -  JAVIER",
+                "edificios": [{
+                 "direccion": "R S  PEÑA 2845",
+                   "departamentos": [{
+                    "nombre": "3 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMERICA 668",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMERICA 641",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "Lu a Sab en  PELUQUERIA - DOM y LUNES EN  BALCON",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMERICA 478",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "BAJO PUERTA DEL GARAGE",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMERICA 306",
+                   "departamentos": [{
+                    "nombre": "8",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTOCOLMO 2717",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "TIRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AV GRAL PAZ 2864",
+                   "departamentos": [{
+                    "nombre": "2 B",
+                    "observacion": "COLECT G PAZ (ENTRE LYNCH Y LA VIA)",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AV GRAL PAZ 2578",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AV GRAL PAZ 2670",
+                   "departamentos": [{
+                    "nombre": "CASA",
+                    "observacion": "X REJA",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BENITO LYNCH 2685",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "BUZON",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BENITO LYNCH 2665",
+                   "departamentos": [{
+                    "nombre": "1 D",
+                    "observacion": "TOCARLE TIMBRE AL  ( 1  F )  SIN FALTA PQ LO ROBAN",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BENITO LYNCH 2664",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "BAJO PUERTA o EN BUZON",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "POSADAS 561",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PUERTA GARAGE -  CON LLUVIA EN MED DE GAS",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MOSCONI 2509",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "PASAJE VIA - REJAS NEGRAS",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BENITO LYNCH 2840",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "SI LLUEVE ARRIBA DEL TECHO DEL AUTO",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "SPRINGOLO 409",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "x VENTANA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "SPRINGOLO 285",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ESTOCOLMO 2834",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "ELLE MODA",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "ELLE MODA"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 12,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 68,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 19,
+                 "publicacion": "ELLE MODA"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 7,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "PARABRISAS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRENSA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 2,
+                 "publicacion": "EL PAIS"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "TIEMPO MILITAR"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA"
+                }, 
+                {
+                }]
+             }]
+       }
+}
+

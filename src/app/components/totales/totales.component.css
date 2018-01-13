@@ -1,0 +1,70 @@
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 1.1em;
+  font-family: "Lato";
+  border-collapse:collapse;
+}
+tr{
+  width: 100%;
+}
+.tableHeaders {
+  background-color: #a1a1b6;
+  color: white;
+  text-align: left;
+  box-shadow: inset 0 3px 30px -12px #000;
+  z-index: 99;
+  height: 8.3vh;
+  padding: 10px;
+  font-family: "Lato";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+tbody tr td.publicacion {
+  text-align: left;
+  font-family: "Oswald";
+  width: 80%;
+  word-break: break-all;
+}
+/*Separadores*/
+tbody tr td {
+  border-top: 1px solid #bfc1ce;
+  border-right: 1px solid #bfc1ce;
+  position: relative;
+}
+tbody tr td:last-child {
+  border-right: none;
+}
+
+/*End separadores*/
+
+/* Estados */
+tbody tr td.estado {
+  padding: 0;
+}
+tbody tr td.estado span {
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+tbody tr td.estado:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  border-radius: 50%;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+tbody tr td.feriado:before {
+  background-color: #5d86ba;
+}
+tbody tr td.suscripcion:before {
+  background-color: #92bc4e;
+}
+
+/* End estados */

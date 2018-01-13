@@ -1,0 +1,13 @@
+<div id="table-wrap">
+  <div class="tableHeaders">
+    {{title}}
+  </div>
+  <table id="totales-table" cellpadding="20" cellspacing="0">
+    <tbody>
+      <tr *ngFor="let pub of totales">
+        <td [ngClass]="{'feriado':(feriadoOSusc(pub) == 'F'), 'suscripcion': (feriadoOSusc(pub) == 'S'), 'estado': feriadoOSusc(pub) == 'F' || feriadoOSusc(pub) == 'S' }"><span>{{feriadoOSusc(pub)}}</span></td>
+        <td class="publicacion"><b>{{pub.cantidad}}</b> {{pub.publicacion}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

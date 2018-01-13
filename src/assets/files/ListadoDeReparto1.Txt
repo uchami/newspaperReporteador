@@ -1,0 +1,3885 @@
+{
+    "cabeceraReporte": {
+        "nombreParada": "Su parada de diarios",
+        "fechaDeReparto": "09/01/2018",
+        "orden": "ORDENADO POR: CALLE",
+        "fechaHoraCreacion": "09/01/2018 12:29:48",
+        "incluyeTotalesEdificio": 1
+    },
+       "cuerpoReporte": {
+             "repartidores": [{
+              "repartidorId": 3,
+              "nombreRepartidor": "GONZALO",
+                "edificios": [{
+                 "direccion": "ARCOS 1325",
+                   "departamentos": [{
+                    "nombre": "19 D",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "16 C",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "11 C",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "11 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "9 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "8 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "15 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ARCOS 1357",
+                   "departamentos": [{
+                    "nombre": "1 2",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ARCOS 1365",
+                   "departamentos": [{
+                    "nombre": "1 D",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "PB B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ARCOS 1374",
+                   "departamentos": [{
+                    "nombre": "4 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ARCOS 1384",
+                   "departamentos": [{
+                    "nombre": "5 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "EL PAIS|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1159",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONISTA COMERCIAL",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CRONISTA COMERCIAL|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2269",
+                   "departamentos": [{
+                    "nombre": "4",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2275",
+                   "departamentos": [{
+                    "nombre": "7 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "6 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2280",
+                   "departamentos": [{
+                    "nombre": "5 12",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1 3",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2283",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2305",
+                   "departamentos": [{
+                    "nombre": "PB",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2310",
+                   "departamentos": [{
+                    "nombre": "6",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "5",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "PRINCESAS DE COLECCION(NAC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "3",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 3,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PRINCESAS DE COLECCION(NAC)"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2321",
+                   "departamentos": [{
+                    "nombre": "3",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "AMBITO FINANCIERO",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "AMBITO FINANCIERO"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2324",
+                   "departamentos": [{
+                    "nombre": "8",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2350",
+                   "departamentos": [{
+                    "nombre": "7",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2387",
+                   "departamentos": [{
+                    "nombre": "16 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "12 C",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "4 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "7 C",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "5 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "19 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2410",
+                   "departamentos": [{
+                    "nombre": "6 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "FOTOGRAFIA ARGENTINA CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "FOTOGRAFIA ARGENTINA CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "OHIGGINS 1357",
+                   "departamentos": [{
+                    "nombre": "13",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "12",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "OLE  DEPORTIVO",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "7",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "5",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "Anton Riquelme",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "RELOJ TRENDING COLORS CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 3,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "OLE  DEPORTIVO|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "RELOJ TRENDING COLORS CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "OHIGGINS 1372",
+                   "departamentos": [{
+                    "nombre": "3",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "OHIGGINS 1376",
+                   "departamentos": [{
+                    "nombre": "1 3",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "OHIGGINS 1387",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "OHIGGINS 1399",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "PALPA 2390",
+                   "departamentos": [{
+                    "nombre": "15 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1122",
+                   "departamentos": [{
+                    "nombre": "2 10",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1137",
+                   "departamentos": [{
+                    "nombre": "1",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "SUPLEMENTO ARQUITECTURA CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "7",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1141",
+                   "departamentos": [{
+                    "nombre": "PB C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1152",
+                   "departamentos": [{
+                    "nombre": "3 7",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1159",
+                   "departamentos": [{
+                    "nombre": "7",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1160",
+                   "departamentos": [{
+                    "nombre": "2 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1166",
+                   "departamentos": [{
+                    "nombre": "8 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1184",
+                   "departamentos": [{
+                    "nombre": "3",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONISTA COMERCIAL",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CRONISTA COMERCIAL|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1235",
+                   "departamentos": [{
+                    "nombre": "7",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1240",
+                   "departamentos": [{
+                    "nombre": "6",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "7",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1247",
+                   "departamentos": [{
+                    "nombre": "8",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1250",
+                   "departamentos": [{
+                    "nombre": "6",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1255",
+                   "departamentos": [{
+                    "nombre": "5 13",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1259",
+                   "departamentos": [{
+                    "nombre": "8 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VUELTA DE OBLIGADO 1268",
+                   "departamentos": [{
+                    "nombre": "1 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2161",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2320",
+                   "departamentos": [{
+                    "nombre": "4 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "SUPLEMENTO ARQUITECTURA CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 1,
+                 "cantidad": 15,
+                 "publicacion": "CLARIN|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 29,
+                 "publicacion": "NACION|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 5,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 10,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 8,
+                 "publicacion": "EL PAIS|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 2,
+                 "publicacion": "CRONISTA COMERCIAL|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "PAGINA 12"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRINCESAS DE COLECCION(NAC)"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "AMBITO FINANCIERO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "FOTOGRAFIA ARGENTINA CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "RELOJ TRENDING COLORS CLARIN"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 2,
+                 "nombreRepartidor": "HERNÁN",
+                "edificios": [{
+                 "direccion": "AMENABAR 1032",
+                   "departamentos": [{
+                    "nombre": "5 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMENABAR 1055",
+                   "departamentos": [{
+                    "nombre": "14 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMENABAR 1090",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMENABAR 1135",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMENABAR 1158",
+                   "departamentos": [{
+                    "nombre": "5 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AMENABAR 1247",
+                   "departamentos": [{
+                    "nombre": "6 11",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1181",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONISTA COMERCIAL",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONISTA COMERCIAL"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1232",
+                   "departamentos": [{
+                    "nombre": "7 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "13 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "12 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "10 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 4,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1239",
+                   "departamentos": [{
+                    "nombre": "11 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1253",
+                   "departamentos": [{
+                    "nombre": "marti",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 2
+                      }, 
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "OLE  DEPORTIVO",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "LO",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONISTA COMERCIAL",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "OLE  DEPORTIVO"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CRONISTA COMERCIAL|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1257",
+                   "departamentos": [{
+                    "nombre": "7 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "7 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "4 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "12 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 4,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1258",
+                   "departamentos": [{
+                    "nombre": "13 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "12 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "11 E",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1277",
+                   "departamentos": [{
+                    "nombre": "7 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "12 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "EL PAIS|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1287",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONISTA COMERCIAL",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONISTA COMERCIAL"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1295",
+                   "departamentos": [{
+                    "nombre": "12",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "AMBITO FINANCIERO",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 10
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 14
+                      }, 
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "AMBITO FINANCIERO"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 24,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1324",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2539",
+                   "departamentos": [{
+                    "nombre": "6 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "3 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2568",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2598",
+                   "departamentos": [{
+                    "nombre": "6 33",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "4 24",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "4 20",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CIUDAD DE LA PAZ 1126",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CIUDAD DE LA PAZ 1132",
+                   "departamentos": [{
+                    "nombre": "7 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CIUDAD DE LA PAZ 1180",
+                   "departamentos": [{
+                    "nombre": "PB B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   }]
+                   }, 
+                   {
+                    "direccion": "GRIVEO 2474",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MOLDES 1061",
+                   "departamentos": [{
+                    "nombre": "1 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONISTA COMERCIAL",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONISTA COMERCIAL"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VIRREY ARREDONDO 2497",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2302",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2547",
+                   "departamentos": [{
+                    "nombre": "9 Encar Eulalio",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "DC COMICS NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "DC COMICS NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2580",
+                   "departamentos": [{
+                    "nombre": "2 D",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONISTA COMERCIAL(SUS)",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CRONISTA COMERCIAL(SUS)|S"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 1,
+                 "cantidad": 25,
+                 "publicacion": "CLARIN|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 71,
+                 "publicacion": "NACION|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 5,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 17,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 12,
+                 "publicacion": "EL PAIS|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "PAGINA 12"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRINCESAS DE COLECCION(NAC)"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "AMBITO FINANCIERO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 16,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "FOTOGRAFIA ARGENTINA CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "RELOJ TRENDING COLORS CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "DC COMICS NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "CRONISTA COMERCIAL(SUS)|S"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 1,
+                 "nombreRepartidor": "KEVIN",
+                "edificios": [{
+                 "direccion": "ZABALA 2417",
+                   "departamentos": [{
+                    "nombre": "12 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 1,
+                 "cantidad": 25,
+                 "publicacion": "CLARIN|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 72,
+                 "publicacion": "NACION|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 5,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 17,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 12,
+                 "publicacion": "EL PAIS|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "PAGINA 12"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRINCESAS DE COLECCION(NAC)"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "AMBITO FINANCIERO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 16,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "FOTOGRAFIA ARGENTINA CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "RELOJ TRENDING COLORS CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "DC COMICS NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "CRONISTA COMERCIAL(SUS)|S"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 4,
+                 "nombreRepartidor": "LUIS",
+                "edificios": [{
+                 "direccion": "AGUILAR 2397",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AGUILAR 2453",
+                   "departamentos": [{
+                    "nombre": "4 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AGUILAR 2471",
+                   "departamentos": [{
+                    "nombre": "6",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA(CLARIN)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA(CLARIN)"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1145",
+                   "departamentos": [{
+                    "nombre": "9 34",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "8 31",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "6 24",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 3,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1168",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1169",
+                   "departamentos": [{
+                    "nombre": "6 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "3 C",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "14 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1178",
+                   "departamentos": [{
+                    "nombre": "4 9",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "3",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 6",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1183",
+                   "departamentos": [{
+                    "nombre": "5 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA(CLARIN)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA(CLARIN)"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1191",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2426",
+                   "departamentos": [{
+                    "nombre": "1 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2437",
+                   "departamentos": [{
+                    "nombre": "5 D",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2440",
+                   "departamentos": [{
+                    "nombre": "6 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2441",
+                   "departamentos": [{
+                    "nombre": "7 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "4 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "8 E",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "8 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 F",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2449",
+                   "departamentos": [{
+                    "nombre": "5 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1 C",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2454",
+                   "departamentos": [{
+                    "nombre": "1 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA(CLARIN)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA(CLARIN)"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2455",
+                   "departamentos": [{
+                    "nombre": "PB A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2458",
+                   "departamentos": [{
+                    "nombre": "1 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2459",
+                   "departamentos": [{
+                    "nombre": "4 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2462",
+                   "departamentos": [{
+                    "nombre": "7 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "3 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "DC COMICS NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "DC COMICS NACION"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2473",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2484",
+                   "departamentos": [{
+                    "nombre": "5 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "AMBITO FINANCIERO",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "AMBITO FINANCIERO"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2485",
+                   "departamentos": [{
+                    "nombre": "7",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2486",
+                   "departamentos": [{
+                    "nombre": "1 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CIUDAD DE LA PAZ 1029",
+                   "departamentos": [{
+                    "nombre": "6",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CIUDAD DE LA PAZ 1043",
+                   "departamentos": [{
+                    "nombre": "1 D",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CIUDAD DE LA PAZ 1063",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2447",
+                   "departamentos": [{
+                    "nombre": "1 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2450",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2463",
+                   "departamentos": [{
+                    "nombre": "5 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2464",
+                   "departamentos": [{
+                    "nombre": "8",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "3",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2465",
+                   "departamentos": [{
+                    "nombre": "2 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2478",
+                   "departamentos": [{
+                    "nombre": "7",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "5 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "4",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 3,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ZABALA 2550",
+                   "departamentos": [{
+                    "nombre": "garag zabala",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 1,
+                 "cantidad": 39,
+                 "publicacion": "CLARIN|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 93,
+                 "publicacion": "NACION|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 5,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 23,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 16,
+                 "publicacion": "EL PAIS|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 5,
+                 "publicacion": "PAGINA 12"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PRINCESAS DE COLECCION(NAC)"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "AMBITO FINANCIERO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 24,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "FOTOGRAFIA ARGENTINA CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "RELOJ TRENDING COLORS CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "DC COMICS NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "CRONISTA COMERCIAL(SUS)|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA(CLARIN)"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                }]
+                }, 
+                {
+                 "repartidorId": 5,
+                 "nombreRepartidor": "NADIE",
+                "edificios": [{
+                 "direccion": "CABILDO 1",
+                   "departamentos": [{
+                    "nombre": "Diego Korol",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1200",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "FOTOGRAFIA ARGENTINA CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "FOTOGRAFIA ARGENTINA CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CABILDO 1220",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "EL PAIS",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "NACION|S"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS|S"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CÉSPEDES 2441",
+                   "departamentos": [{
+                    "nombre": "Santiago",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "SUPLEMENTO ARQUITECTURA(CLARIN)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "SUPLEMENTO ARQUITECTURA(CLARIN)"
+                   }]
+                   }, 
+                   {
+                    "direccion": "CIUDAD DE LA PAZ 1157",
+                   "departamentos": [{
+                    "nombre": "Joel Clinica",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PRINCESAS DE COLECCION(NAC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "PRINCESAS DE COLECCION(NAC)"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 1,
+                 "cantidad": 40,
+                 "publicacion": "CLARIN|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 94,
+                 "publicacion": "NACION|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 5,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA CLARIN|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 23,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 17,
+                 "publicacion": "EL PAIS|S"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 5,
+                 "publicacion": "PAGINA 12"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "PRINCESAS DE COLECCION(NAC)"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "AMBITO FINANCIERO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 25,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "FOTOGRAFIA ARGENTINA CLARIN"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "RELOJ TRENDING COLORS CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "CRONISTA COMERCIAL"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "OLE  DEPORTIVO"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "DC COMICS NACION"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 1,
+                 "publicacion": "CRONISTA COMERCIAL(SUS)|S"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "SUPLEMENTO ARQUITECTURA(CLARIN)"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                }]
+             }]
+       }
+}
+

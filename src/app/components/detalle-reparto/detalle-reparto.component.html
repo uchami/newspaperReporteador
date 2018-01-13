@@ -1,15 +1,27 @@
 <div id="{{componentName}}">
+
   <div id="headerContent">
-    <h2 [innerHtml]="edificioActual.direccion"></h2><button>TOTALES</button>
+    <h2 [innerHtml]="edificioActual.direccion"></h2><button (click)="toggleViewDetalle()" [innerHtml]="totalesButtonText"></button>
   </div>
+
   <div id="content">
     <app-detalle-edificio [edificioActual]="edificioActual" *ngIf="viewDetalle"></app-detalle-edificio>
-    <div *ngIf="!viewDetalle"></div>
+    <app-totales *ngIf="!viewDetalle" [title]="titleTotales" [totales]="edificioActual.totalesEdificio"></app-totales>
   </div>
+
   <div id="footerContent">
-    <button mat-button class="main-button" id="btn-anterior" (click)="prevEdificio()">ANTERIOR</button>
-    <button mat-button class="main-button" id="btn-siguiente" (click)="nextEdificio()" ><b>SIGUIENTE</b> EDIFICIO</button>
-    <button mat-button class="main-button" id="btn-edificios" (click)="showEdificioSelect()"><img src="./assets/images/edificioIcon.png"></button>
+    <!--Anterior-->
+    <button mat-button class="main-button" id="btn-anterior" [disabled]="indexEdificio <= 0"
+            [ngClass]="{'disabled':indexEdificio <= 0}" (click)="prevEdificio()">ANTERIOR</button>
+
+    <!--Siguiente-->
+    <button mat-button class="main-button" id="btn-siguiente" [disabled]="indexEdificio >= (lengthEdificios - 1)"
+            [ngClass]="{'disabled':indexEdificio >= (lengthEdificios - 1)}" (click)="nextEdificio()" ><b>SIGUIENTE</b> EDIFICIO</button>
+
+    <!--Todos los edificios-->
+    <button mat-button class="main-button" id="btn-edificios"
+            (click)="showEdificioSelect()"><img src="./assets/images/edificioIcon.png"></button>
   </div>
+
 </div>
 

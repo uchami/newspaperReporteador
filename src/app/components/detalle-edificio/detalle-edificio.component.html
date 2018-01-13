@@ -10,8 +10,20 @@
     </thead>
     <tbody>
       <ng-container *ngFor="let depto of edificioActual.departamentos; let i = index;">
+        <tr [ngClass]="{'grey': i%2 == 1}" *ngIf="depto.nombre.length > 5">
+          <td class="deptoNombre" [attr.rowspan]="(depto.observacion.length > 0) ? edificioActual.departamentos[i].publicaciones.length + 2 : edificioActual.departamentos[i].publicaciones.length + 1">
+            {{(depto.nombre.length <= 5) ? depto.nombre : depto.nombre.substr(0,5)}}
+          </td>
+          <td colspan="4">{{depto.nombre}}</td>
+        </tr>
+        <tr [ngClass]="{'grey': i%2 == 1}" *ngIf="depto.observacion.length > 0">
+          <td *ngIf="depto.nombre.length <= 5" class="deptoNombre" [attr.rowspan]="edificioActual.departamentos[i].publicaciones.length + 1">{{(depto.nombre.length <= 5) ? depto.nombre : depto.nombre.substr(0,5)}}</td>
+          <td colspan="4"><b>RECORDÁ QUE</b><br> {{depto.observacion}}</td>
+        </tr>
         <tr [ngClass]="{'grey': i%2 == 1}" *ngFor="let pub of edificioActual.departamentos[i].publicaciones; let j = index">
-          <td *ngIf="j == 0" class="deptoNombre" [attr.rowspan]="edificioActual.departamentos[i].publicaciones.length">{{depto.nombre}}</td>
+          <td *ngIf="j == 0 && depto.observacion.length == 0 && depto.nombre.length <= 5" class="deptoNombre" [attr.rowspan]="edificioActual.departamentos[i].publicaciones.length">
+            {{(depto.nombre.length <= 5) ? depto.nombre : depto.nombre.substr(0,5)}}
+          </td>
           <td class="estado feriado" [ngClass]="{'active': pub.feriado>0}"><span>{{(pub.feriado > 0) ? "F" : ""}}</span></td>
           <td class="estado suscripcion" [ngClass]="{'active': pub.suscripcion>0}"><span>{{(pub.suscripcion > 0) ? "S" : ""}}</span></td>
           <td class="estado extra" [ngClass]="{'active': pub.extra>0}"><span>{{(pub.extra > 0) ? "E" : ""}}</span></td>

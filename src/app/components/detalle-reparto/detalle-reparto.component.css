@@ -19,6 +19,16 @@
   font-family: "Lato";
   font-weight: 700;
   letter-spacing: 2px;
+  width: 93px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#detallereparto #headerContent button img {
+  height: 35%;
+  position: absolute;
 }
 /*End Header*/
 
@@ -72,7 +82,9 @@
 #detallereparto #footerContent button .mat-button-wrapper b {
   margin-right: 5px;
 }
-
+#detallereparto #footerContent button.disabled span {
+  opacity: .5;
+}
 /* End footer */
 
 @media screen and (max-width: 360px) {
