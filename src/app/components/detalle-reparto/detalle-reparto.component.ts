@@ -5,6 +5,8 @@ import {IEdificio} from '../../interfaces/IEdificio';
 import {SelectDialogComponent} from '../select-repartidor-dialog/select-dialog.component';
 import {MatDialog} from '@angular/material';
 import {Router} from '@angular/router';
+import {routerTransition} from '../../routing.animation';
+
 
 @Component({
   selector: 'app-detalle-reparto',
@@ -20,7 +22,6 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   todosLosEdificios = [];
   titleTotales = "TOTALES DEL EDIFICIO";
   indexEdificio = -1;
-  lengthEdificios = -1;
 
   constructor(private readRepartoFileService : ReadRepartoFileService, private dialog : MatDialog, private router: Router) {
     super();
@@ -41,8 +42,14 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   }
 
   nextEdificio(){
+
     this.readRepartoFileService.setNextIndexEdificio();
+    const prevIndex = this.indexEdificio;
     this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
+    if(prevIndex == this.indexEdificio){
+      //Termino el reparto
+      this.router.navigate(['final-reparto']);
+    }
     this.edificioActual = this.readRepartoFileService.getEdificioActual();
   }
   prevEdificio(){

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import {ComponentNamer} from '../../app.component';
+import {routerTransition} from '../../routing.animation';
 
 @Component({
   selector: 'app-final-reparto',

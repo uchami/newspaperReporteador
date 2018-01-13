@@ -60,8 +60,15 @@ tbody tr td.estado, thead th.estado  {
 
 /*End general*/
 /*Separadores*/
+tbody tr td.last-item {
+  border-bottom: 1px solid #bfc1ce;
+}
 tbody tr td {
   border-top: 1px solid #bfc1ce;
+  position: relative;
+}
+tbody tr:last-child {
+  border-bottom: 1px solid #bfc1ce;
   position: relative;
 }
 tbody tr td.extra {

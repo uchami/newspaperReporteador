@@ -110,11 +110,10 @@ export class ReadRepartoFileService {
   getEdificioActual() {
     const repId = this.getRepartidorId();
     const indexEd = this.getIndexEdificio();
-    const edActual = this.reparto.cuerpoReporte.repartidores[repId].edificios[indexEd];
+    const edActual = Object.create(this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId).edificios[indexEd]);
     let direc = edActual.direccion;
     direc = direc.slice(0, direc.lastIndexOf(' '));
     edActual.direccion = direc + edActual.direccion.replace(direc, '').bold();
-
     return edActual;
   }
 }

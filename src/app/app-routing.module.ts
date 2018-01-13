@@ -8,13 +8,13 @@ import {FinalRepartoComponent} from './components/final-reparto/final-reparto.co
 
 
 const routes: Routes = [
-  {path: '' , component: LoginComponent},
-  {path: 'login' , component: LoginComponent},
-  {path: 'home' , component: HomeComponent},
-  {path: 'home/:error' , component: HomeComponent},
-  {path: 'detalle-reparto' , component: DetalleRepartoComponent},
-  {path: 'totales' , component: TotalesComponent},
-  {path: 'final-reparto' , component: FinalRepartoComponent}
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  {path: 'login' , component: LoginComponent, data: { state: 'login' }},
+  {path: 'home' , component: HomeComponent, data: { state: 'home' }},
+  {path: 'home/:error' , component: HomeComponent, data: { state: 'home' }},
+  {path: 'detalle-reparto' , component: DetalleRepartoComponent, data: { state: 'detalle-reparto' }},
+  {path: 'totales' , component: TotalesComponent, data: { state: 'totales' }},
+  {path: 'final-reparto' , component: FinalRepartoComponent, data: { state: 'final-reparto' }}
 ];
 export const routableComponents = [
   LoginComponent,
@@ -29,4 +29,6 @@ export const routableComponents = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+
 

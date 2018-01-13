@@ -19,8 +19,9 @@
   text-align: left;
   height: 100%;
   font-family: "Lato";
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1em;
+  color: #55637f;
 }
 #selectdialog .mat-list-item-content{
   padding: 0;

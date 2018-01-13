@@ -15,8 +15,7 @@
             [ngClass]="{'disabled':indexEdificio <= 0}" (click)="prevEdificio()">ANTERIOR</button>
 
     <!--Siguiente-->
-    <button mat-button class="main-button" id="btn-siguiente" [disabled]="indexEdificio >= (lengthEdificios - 1)"
-            [ngClass]="{'disabled':indexEdificio >= (lengthEdificios - 1)}" (click)="nextEdificio()" ><b>SIGUIENTE</b> EDIFICIO</button>
+    <button mat-button class="main-button" id="btn-siguiente" (click)="nextEdificio()" ><b>SIGUIENTE</b> EDIFICIO</button>
 
     <!--Todos los edificios-->
     <button mat-button class="main-button" id="btn-edificios"
