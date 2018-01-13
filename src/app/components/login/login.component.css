@@ -1,28 +1,7 @@
-/*Login header*/
-#login #headerImage{
-  width: 100%;
-}
-#login #headerImage #loginHeader{
-  width: 100%;
-}
-#login #headerImage .lss-logo {
-  position: absolute;
-  bottom: -13%;
-  margin-left: 40%;
-  width: 20%;
-}
-#login #headerImage {
-  position: relative;
-}
-/*End login login header*/
+
 /*Login general*/
 #login #welcome-text {
   margin-bottom: 15px;
-}
-
-#login #content {
-  width: 85%;
-  padding: 7.5%;
 }
 
 /*End login general*/
@@ -33,16 +12,11 @@
   font-family: "Lato";
   color: #55637f;
 }
-#login mat-form-field i {
+#login mat-form-field img {
   position: absolute;
   right: 10px;
-  top: 10px;
-}
-
-#login mat-form-field i.fa-lock {
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  width: 18px;
+  top: 0px;
 }
 
 #login mat-form-field label {
@@ -58,14 +32,11 @@
 #login mat-form-field.error input {
   color: #ae1d1a;
 }
-#login mat-form-field.error i {
-  -webkit-text-stroke-color: #ae1d1a;
-}
 
 #login mat-form-field.has-success .mat-input-underline {
   background-color: #64bc17;
 }
-#login mat-form-field.has-success input, #login mat-form-field.has-success i {
+#login mat-form-field.has-success input {
   color: #64bc17;
 }
 
@@ -92,5 +63,4 @@
   color: white;
 }
 /*End entrar button*/
-
 

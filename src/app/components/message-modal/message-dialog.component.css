@@ -1,0 +1,12 @@
+h1 {
+  font-size: 1.7em;
+}
+.main-button {
+  width: 100%;
+  height: 62px;
+  margin-top: 10px;
+}
+app-message-modal {
+  float: left;
+  padding: 24px;
+}

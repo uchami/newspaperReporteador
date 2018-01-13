@@ -2,10 +2,9 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {ComponentNamer} from '../../app.component';
 import {ReadRepartoFileService} from '../../services/read-reparto-file.service';
 import {IEdificio} from '../../interfaces/IEdificio';
-import {DetalleEdificioComponent} from '../detalle-edificio/detalle-edificio.component';
 import {SelectDialogComponent} from '../select-repartidor-dialog/select-dialog.component';
 import {MatDialog} from '@angular/material';
-import {ITotal} from '../../interfaces/ITotal';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-detalle-reparto',
@@ -23,7 +22,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   indexEdificio = -1;
   lengthEdificios = -1;
 
-  constructor(private readRepartoFileService : ReadRepartoFileService, private dialog : MatDialog) {
+  constructor(private readRepartoFileService : ReadRepartoFileService, private dialog : MatDialog, private router: Router) {
     super();
     this.edificioActual = {direccion:"", departamentos:[], totalesEdificio:[]};
   }
@@ -33,7 +32,11 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
       this.edificioActual = this.readRepartoFileService.getEdificioActual();
       this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
       this.todosLosEdificios = this.readRepartoFileService.getEdificios();
-      scrollTo(0,0);
+      scrollTo(0, 0);
+    }, (err) => {
+      if (this.readRepartoFileService.noHayArchivo){
+        this.router.navigate(['home/404']);
+      }
     });
   }
 

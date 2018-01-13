@@ -7,8 +7,9 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/observable/interval';
 import 'rxjs/add/observable/timer';
 import 'rxjs/add/operator/map';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import 'rxjs/add/operator/takeWhile';
+import {MessageDialogComponent} from '../message-modal/message-dialog.component';
 
 
 @Component({
@@ -27,27 +28,46 @@ export class HomeComponent extends ComponentNamer implements OnInit {
   fechaListado = '';
   ordenamiento = '';
 
-  constructor(public dialog: MatDialog, private readRepartoFileService: ReadRepartoFileService, private router: Router) {
+  constructor(public dialog: MatDialog, private readRepartoFileService: ReadRepartoFileService, private router: Router,
+              private route: ActivatedRoute) {
     super();
   }
   ngOnInit() {
+    let error = this.route.snapshot.paramMap.get('error');;
+    if (parseInt(error) == 404) {
+      const fileNotFoundRef = this.dialog.open(MessageDialogComponent, {
+        data: {
+          message: 'El reparto para hoy no está!<br> Comunicate con quien maneje el programe y pedile que lo suba!<br> ' +
+          'Cuando estés listo recargá la aplicación.',
+          buttonText: 'Recargar página'
+        },
+        disableClose: true
+      });
+      fileNotFoundRef.afterClosed().subscribe(result => {
+        this.router.navigate(['home']);
+      });
+    }
     this.readRepartoFileService.getReparto().subscribe( data => {
       this.repartidores = this.readRepartoFileService.getRepartidores();
-      var cabecera = this.readRepartoFileService.getCabeceraReporte();
+      const cabecera = this.readRepartoFileService.getCabeceraReporte();
       this.nombreParada = cabecera.nombreParada;
       this.fechaListado = cabecera.fechaDeReparto;
       this.ordenamiento = cabecera.orden.replace('ORDENADO POR: ','');
+    }, (err) => {
+      if (this.readRepartoFileService.noHayArchivo){
+        this.router.navigate(['home/404']);
+      }
     });
   }
   openDialog(): void {
-    let selectDialogRef = this.dialog.open(SelectDialogComponent, {
+    const selectDialogRef = this.dialog.open(SelectDialogComponent, {
       data: {
         title: '¿Quién sos?',
         options: this.repartidores
       }
     });
     selectDialogRef.afterClosed().subscribe(result => {
-      if(result != null){
+      if (result != null) {
           this.selectedRepartidor = result.name;
           this.selectedRepartidorId = result.value;
           if(this.selectedRepartidor.length > 30){
@@ -57,11 +77,11 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     });
   }
   startReparto(){
-    if(this.selectedRepartidorId != null){
+    if(this.selectedRepartidorId != null) {
       this.readRepartoFileService.setRepartidorId(this.selectedRepartidorId);
       this.readRepartoFileService.setIndexEdificio(0);
       this.anim = true;
-      //Timer (wait until animation ended to navigate)
+      // Timer (wait until animation ended to navigate)
       var goOn = true;
       Observable.interval(1500)
         .takeWhile(() => goOn)
@@ -70,8 +90,15 @@ export class HomeComponent extends ComponentNamer implements OnInit {
           goOn = false;
         });
     } else {
-      console.log("No selecciono repartidor");
+      this.repartidorNotSelected();
     }
   }
-
+  repartidorNotSelected() {
+    this.dialog.open(MessageDialogComponent, {
+      data: {
+        message: 'No sabemos quién sos!<br> Elegí un repartidor para continuar',
+        buttonText: 'Entendido'
+      }
+    });
+  }
 }

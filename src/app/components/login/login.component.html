@@ -1,4 +1,4 @@
-<div id="{{componentName}}">
+<div id="{{componentName}}" class="presentation-view">
   <div id="headerImage">
     <img id="loginHeader" [src]="'./assets/images/loginHeader.png'">
     <img class="lss-logo" [src]="'./assets/images/LSS_Logo.png'">
@@ -11,12 +11,12 @@
     <form (ngSubmit)="loginAction()">
       <mat-form-field [ngClass]="classValidationUser()">
         <input matInput placeholder="Usuario" [(ngModel)]="user" name="user">
-        <i class="fa fa-user-o" aria-hidden="true"></i>
+        <img [src]="'./assets/images/user' + userImage + '.png'">
       </mat-form-field>
 
       <mat-form-field [ngClass]="classValidationPassword()">
         <input matInput type="password" placeholder="Contraseña" [(ngModel)]="password" name="password">
-        <i class="fa fa-lock" aria-hidden="true"></i>
+        <img [src]="'./assets/images/lock' + lockImage + '.png'">
       </mat-form-field>
       <mat-checkbox color="primary">¿Recordar <b>datos</b>?</mat-checkbox>
       <button type="submit" class="main-button" mat-button>ENTRAR</button>

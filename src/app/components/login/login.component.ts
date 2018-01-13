@@ -20,6 +20,8 @@ export class LoginComponent extends ComponentNamer implements OnInit {
   passSent = '';
   userValidation = null;
   passwordValidation = null;
+  lockImage = '';
+  userImage = '';
   ngOnInit() {
   }
 
@@ -38,17 +40,21 @@ export class LoginComponent extends ComponentNamer implements OnInit {
     }
   }
   classValidationPassword(){
-    if((this.passwordValidation != null) && (this.passSent == this.password) && (this.userSent == this.user)){
-      return {'has-success':this.passwordValidation, 'error':!this.passwordValidation};
+    if ((this.passwordValidation != null) && (this.passSent == this.password) && (this.userSent == this.user)){
+      this.lockImage = (this.passwordValidation) ? 'Right' : 'Wrong';
+      return {'has-success': this.passwordValidation, 'error': !this.passwordValidation};
     } else {
-      return {'has-success': false, 'error':false};
+      this.lockImage = '';
+      return {'has-success': false, 'error': false};
     }
   }
   classValidationUser(){
-    if((this.userValidation != null) && (this.passSent == this.password) && (this.userSent == this.user)){
-      return {'has-success':this.userValidation, 'error':!this.userValidation}
+    if ((this.userValidation != null) && (this.passSent == this.password) && (this.userSent == this.user)){
+      this.userImage = (this.userValidation) ? 'Right' : 'Wrong';
+      return {'has-success': this.userValidation, 'error': !this.userValidation}
     } else {
-      return {'has-success': false, 'error':false};
+      this.userImage = '';
+      return {'has-success': false, 'error': false};
     }
   }
 }

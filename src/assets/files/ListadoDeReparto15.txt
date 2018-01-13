@@ -1,0 +1,1842 @@
+{
+    "cabeceraReporte": {
+        "nombreParada": "Los amigos",
+        "fechaDeReparto": "05/01/2018",
+        "orden": "ORDENADO POR: CALLE",
+        "fechaHoraCreacion": "05/01/2018 18:00:49",
+        "incluyeTotalesEdificio": 1
+    },
+       "cuerpoReporte": {
+             "repartidores": [{
+              "repartidorId": 1,
+              "nombreRepartidor": "REPARTIDOR, VUELTA 1",
+                "edificios": [{
+                 "direccion": "ESMERALDA 1020",
+                   "departamentos": [{
+                    "nombre": "4 23 CUERP 2º",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "2 4 CUERP 1º",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "PB 15 CUERP 2º",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 1066",
+                   "departamentos": [{
+                    "nombre": "11 H",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "5 I",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "2 H",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "PB L",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL CRONISTA"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 1075",
+                   "departamentos": [{
+                    "nombre": "3 35 Victor",
+                    "observacion": "DEJAR BAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 1080",
+                   "departamentos": [{
+                    "nombre": "3 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL CRONISTA"
+                   }]
+                   },
+                   {
+                    "direccion": "SANTA FÉ 768",
+                   "departamentos": [{
+                    "nombre": "4°",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL CRONISTA"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 6,
+                 "publicacion": "NACION"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "CLARIN"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "EL CRONISTA"
+                },
+                {
+                }]
+                },
+                {
+                 "repartidorId": 2,
+                 "nombreRepartidor": "REPARTIDOR, VUELTA 2",
+                "edificios": [{
+                 "direccion": "ESMERALDA 902",
+                   "departamentos": [{
+                    "nombre": "BANCO SANTAND",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "2 LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 920",
+                   "departamentos": [{
+                    "nombre": "45 3",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "16 8",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "15 4",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "OLE"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 959",
+                   "departamentos": [{
+                    "nombre": "Panaderia",
+                    "observacion": "RETIRA EDUARDO",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 1,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 960",
+                   "departamentos": [{
+                    "nombre": "5 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 964",
+                   "departamentos": [{
+                    "nombre": "1 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 976",
+                   "departamentos": [{
+                    "nombre": "9 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "8 C",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "7 A",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "EL PAIS(SUSC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }
+                      ]
+                      },
+                      {
+                       "nombre": "6 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   },
+                   {
+                                          "nombre": "6 B",
+                                          "observacion": "",
+                                         "publicaciones": [{
+                                          "nombre": "CLARIN",
+                                          "feriado": 1,
+                                          "suscripcion": 1,
+                                          "extra": 1,
+                                          "cantidad": 1
+                                         }]
+                                      },
+                                      {
+                                                             "nombre": "6 B",
+                                                             "observacion": "",
+                                                            "publicaciones": [{
+                                                             "nombre": "CLARIN",
+                                                             "feriado": 0,
+                                                             "suscripcion": 1,
+                                                             "extra": 0,
+                                                             "cantidad": 1
+                                                            }]
+                                                         },
+                                                         {
+                                                                                "nombre": "6 B",
+                                                                                "observacion": "",
+                                                                               "publicaciones": [{
+                                                                                "nombre": "CLARIN",
+                                                                                "feriado": 1,
+                                                                                "suscripcion": 0,
+                                                                                "extra": 0,
+                                                                                "cantidad": 1
+                                                                               }]
+                                                                            },
+                                                                            {
+                                                                                                   "nombre": "6 B",
+                                                                                                   "observacion": "",
+                                                                                                  "publicaciones": [{
+                                                                                                   "nombre": "CLARIN",
+                                                                                                   "feriado": 0,
+                                                                                                   "suscripcion": 1,
+                                                                                                   "extra": 0,
+                                                                                                   "cantidad": 1
+                                                                                                  }]
+                                                                                               }
+                   ],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS(SUSC)"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 983",
+                   "departamentos": [{
+                    "nombre": "6 B",
+                    "observacion": "TOCAR TIMBRE o Bajo Puerta",
+                      "publicaciones": [{
+                       "nombre": "EL PAIS(SUSC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "2 D",
+                       "observacion": "DEJAR BAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS(SUSC)"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 989",
+                   "departamentos": [{
+                    "nombre": "5°",
+                    "observacion": "( De lunes a sabado lleva Jose )",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "EL PAIS(SUSC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL PAIS(SUSC)"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 15,
+                 "publicacion": "NACION"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 6,
+                 "publicacion": "CLARIN"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "EL CRONISTA"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 2,
+                 "publicacion": "OLE"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PAGINA 12"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "EL PAIS(SUSC)"
+                },
+                {
+                }]
+                },
+                {
+                 "repartidorId": 3,
+                 "nombreRepartidor": "REPARTIDOR, VUELTA 3",
+                "edificios": [{
+                 "direccion": "MAIPÚ 939",
+                   "departamentos": [{
+                    "nombre": "ESPN",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "2 OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      },
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "OLE"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 738",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "1 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "OLE"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 776",
+                   "departamentos": [{
+                    "nombre": "RECE HOTEL",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 780",
+                   "departamentos": [{
+                    "nombre": "LOTERIA",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 788",
+                   "departamentos": [{
+                    "nombre": "3",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 18,
+                 "publicacion": "NACION"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 8,
+                 "publicacion": "CLARIN"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "EL CRONISTA"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 5,
+                 "publicacion": "OLE"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PAGINA 12"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "EL PAIS(SUSC)"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "POPULAR"
+                },
+                {
+                }]
+                },
+                {
+                 "repartidorId": 4,
+                 "nombreRepartidor": "REPARTIDOR, VUELTA 4",
+                "edificios": [{
+                 "direccion": "MARCELO T. 817",
+                   "departamentos": [{
+                    "nombre": "1 1",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 842",
+                   "departamentos": [{
+                    "nombre": "HOTEL",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "2 LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      },
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 849",
+                   "departamentos": [{
+                    "nombre": "11 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "4 E",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 863",
+                   "departamentos": [{
+                    "nombre": "6 B",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "2 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 864",
+                   "departamentos": [{
+                    "nombre": "5 J",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 867",
+                   "departamentos": [{
+                    "nombre": "OSMED IAPICHINO",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LIBROS DEL VIAJERO 2017 CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "OSME DICA",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "2 LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      },
+                      {
+                       "nombre": "2 EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      },
+                      {
+                       "nombre": "AMBITO FINANCIERO",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "LIBROS DEL VIAJERO 2017 CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "EL CRONISTA"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "AMBITO FINANCIERO"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 883",
+                   "departamentos": [{
+                    "nombre": "4°",
+                    "observacion": "BAJO PUERTA MADERA",
+                      "publicaciones": [{
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL CRONISTA"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 901",
+                   "departamentos": [{
+                    "nombre": "BAR NATACHA",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "2 CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 925",
+                   "departamentos": [{
+                    "nombre": "9°",
+                    "observacion": "PONER Nª DEJAR  PUERTA ENTRADA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "7°",
+                       "observacion": "PONER Nª DEJAR  PUERTA ENTRADA",
+                      "publicaciones": [{
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "EL CRONISTA"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 934",
+                   "departamentos": [{
+                    "nombre": "6 27 CUERP 2º",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "6 26 CUERP 1º",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "4 20 CUERP 2º",
+                       "observacion": "DEJAR APOYADO EN PARED (parado)",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "ENCARG",
+                       "observacion": "COBRAR COBRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "OLE"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "SUIPACHA 1019",
+                   "departamentos": [{
+                    "nombre": "3 C",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "SUIPACHA 1049",
+                   "departamentos": [{
+                    "nombre": "7 D",
+                    "observacion": "POR PUERTA SERVICIO",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 29,
+                 "publicacion": "NACION"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 17,
+                 "publicacion": "CLARIN"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 8,
+                 "publicacion": "EL CRONISTA"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 7,
+                 "publicacion": "OLE"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "PAGINA 12"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "EL PAIS(SUSC)"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "POPULAR"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "LIBROS DEL VIAJERO 2017 CLARIN"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "AMBITO FINANCIERO"
+                },
+                {
+                }]
+                },
+                {
+                 "repartidorId": 9999,
+                 "nombreRepartidor": "RESERVAS EN LA PARADA",
+                "edificios": [{
+                 "direccion": "ESMERALDA 1001",
+                   "departamentos": [{
+                    "nombre": "CREEP 22",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "2 CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 1037",
+                   "departamentos": [{
+                    "nombre": "Brixton",
+                    "observacion": "ENTREGAR 7 Y 30",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 1040",
+                   "departamentos": [{
+                    "nombre": "11 A",
+                    "observacion": "LUNES a SABADO RETIRA GUARDIA",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "EL PAIS(SUSC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "9 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL PAIS(SUSC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "6 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "EL PAIS(SUSC)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "4 A 8",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 4,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 3,
+                    "publicacion": "EL PAIS(SUSC)"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 1050",
+                   "departamentos": [{
+                    "nombre": "VIANDA",
+                    "observacion": "LEVAR DESPUES DE LAS 8 : 15",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "SANTA FÉ 862",
+                   "departamentos": [{
+                    "nombre": "1",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "OLE"
+                   }]
+                   },
+                   {
+                    "direccion": "ESMERALDA 978",
+                   "departamentos": [{
+                    "nombre": "BARBE JOB",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "OLE",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "OLE"
+                   }]
+                   },
+                   {
+                    "direccion": "MAIPÚ 947",
+                   "departamentos": [{
+                    "nombre": "PELUQ",
+                    "observacion": "LLEVAR DESPUES DE LAS 10 HRS",
+                      "publicaciones": [{
+                       "nombre": "PARA TI",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PARA TI"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 752",
+                   "departamentos": [{
+                    "nombre": "3 A",
+                    "observacion": "PONER Nª",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 784",
+                   "departamentos": [{
+                    "nombre": "2 piso",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL CRONISTA"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 790",
+                   "departamentos": [{
+                    "nombre": "EL NEGRO",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "PAGINA 12",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "EL CRONISTA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "PAGINA 12"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL CRONISTA"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 799",
+                   "departamentos": [{
+                    "nombre": "BAR MAR T.",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 801",
+                   "departamentos": [{
+                    "nombre": "CREPERIE",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      },
+                      {
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   },
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 811",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 814",
+                   "departamentos": [{
+                    "nombre": "1º",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 833",
+                   "departamentos": [{
+                    "nombre": "4°",
+                    "observacion": "RETIRA PORTERO",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 873",
+                   "departamentos": [{
+                    "nombre": "PELUQ ALEX",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL CUERPO HUMANO(NACION)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      },
+                      {
+                       "nombre": "PELUQUERIA",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL CUERPO HUMANO(NACION)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "EL CUERPO HUMANO(NACION)"
+                   }]
+                   },
+                   {
+                    "direccion": "MARCELO T. 876",
+                   "departamentos": [{
+                    "nombre": "SANTI AGO",
+                    "observacion": "COBRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "SUIPACHA 957",
+                   "departamentos": [{
+                    "nombre": "PABLO",
+                    "observacion": "COBRAR",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   },
+                   {
+                    "direccion": "SUIPACHA 963",
+                   "departamentos": [{
+                    "nombre": "4 31 ENRIQUE",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "2 EL CUERPO HUMANO(NACION)",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 2
+                      }]
+                   }]
+                      ,
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "EL CUERPO HUMANO(NACION)"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 40,
+                 "publicacion": "NACION"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 28,
+                 "publicacion": "CLARIN"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 10,
+                 "publicacion": "EL CRONISTA"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 9,
+                 "publicacion": "OLE"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "PAGINA 12"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 6,
+                 "publicacion": "EL PAIS(SUSC)"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "POPULAR"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "LIBROS DEL VIAJERO 2017 CLARIN"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "AMBITO FINANCIERO"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "PARA TI"
+                },
+                {
+                 "color": 0,
+                 "cantidad": 4,
+                 "publicacion": "EL CUERPO HUMANO(NACION)"
+                },
+                {
+                }]
+             }]
+       }
+}
+

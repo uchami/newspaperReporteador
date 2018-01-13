@@ -14,11 +14,13 @@ import {FormsModule} from '@angular/forms';
 import {CookieService} from 'angular2-cookie/core';
 import { SelectDialogComponent } from './components/select-repartidor-dialog/select-dialog.component';
 import {ReadRepartoFileService} from './services/read-reparto-file.service';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
-import { DetalleRepartoComponent } from './components/detalle-reparto/detalle-reparto.component';
-import { DetalleEdificioComponent } from './components/detalle-edificio/detalle-edificio.component';
+import {HttpClientModule} from '@angular/common/http';
+import {DetalleRepartoComponent } from './components/detalle-reparto/detalle-reparto.component';
+import {DetalleEdificioComponent } from './components/detalle-edificio/detalle-edificio.component';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { TotalesComponent } from './components/totales/totales.component';
+import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
+import {MessageDialogComponent } from './components/message-modal/message-dialog.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { TotalesComponent } from './components/totales/totales.component';
     SelectDialogComponent,
     DetalleRepartoComponent,
     DetalleEdificioComponent,
-    TotalesComponent
+    TotalesComponent,
+    FinalRepartoComponent,
+    MessageDialogComponent
   ],
   imports: [
     AppRoutingModule,
@@ -42,8 +46,8 @@ import { TotalesComponent } from './components/totales/totales.component';
   ],
   providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent ],
   bootstrap: [AppComponent],
-  entryComponents: [SelectDialogComponent]
+  entryComponents: [SelectDialogComponent, MessageDialogComponent]
 })
 export class AppModule {
-  constructor(private _cookieService:CookieService){}
+  constructor(private _cookieService: CookieService) {}
 }

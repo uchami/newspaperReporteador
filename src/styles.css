@@ -38,11 +38,51 @@ h2 {
 .main-button {
   font-size: 1.4em;
   font-family: "Lato";
-  color:white;
   font-weight: 700;
   background-color: #64bc17;
   box-shadow: 0px 0px 21px #64bc17;
+  color: white;
+}
+.main-button span {
+  color:white;
 }
 
-.cdk-overlay-backdrop { transition: none; }
 
+/* Affecting all dialogs :'( */
+.cdk-overlay-container .cdk-overlay-pane {
+  width: 96vw;
+  max-width: none !important;
+}
+mat-dialog-container {
+  padding: 0!important;
+}
+.cdk-overlay-backdrop { transition: none; }
+/* End Affecting all dialogs :'( */
+
+/*Presentation view*/
+
+/*Login header - Final reparto header*/
+.presentation-view #headerImage{
+  width: 100%;
+}
+.presentation-view #headerImage #loginHeader{
+  width: 100%;
+}
+.presentation-view #headerImage .lss-logo {
+  position: absolute;
+  bottom: -13%;
+  margin-left: 40%;
+  width: 20%;
+}
+.presentation-view #headerImage {
+  position: relative;
+}
+/*End Login header - Final reparto header*/
+
+/*General*/
+.presentation-view #content {
+  width: 85%;
+  padding: 7.5%;
+}
+/*End general*/
+/*End Presentation view*/
