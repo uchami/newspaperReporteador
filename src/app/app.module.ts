@@ -18,6 +18,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { DetalleRepartoComponent } from './components/detalle-reparto/detalle-reparto.component';
 import { DetalleEdificioComponent } from './components/detalle-edificio/detalle-edificio.component';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
+import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
     HomeComponent,
     SelectDialogComponent,
     DetalleRepartoComponent,
-    DetalleEdificioComponent
+    DetalleEdificioComponent,
+    FinalRepartoComponent
   ],
   imports: [
     AppRoutingModule,

@@ -33,14 +33,14 @@ export class HomeComponent extends ComponentNamer implements OnInit {
   ngOnInit() {
     this.readRepartoFileService.getReparto().subscribe( data => {
       this.repartidores = this.readRepartoFileService.getRepartidores();
-      var cabecera = this.readRepartoFileService.getCabeceraReporte();
+      const cabecera = this.readRepartoFileService.getCabeceraReporte();
       this.nombreParada = cabecera.nombreParada;
       this.fechaListado = cabecera.fechaDeReparto;
       this.ordenamiento = cabecera.orden.replace('ORDENADO POR: ','');
     });
   }
   openDialog(): void {
-    let selectDialogRef = this.dialog.open(SelectDialogComponent, {
+    const selectDialogRef = this.dialog.open(SelectDialogComponent, {
       data: {
         title: '¿Quién sos?',
         options: this.repartidores
@@ -61,7 +61,7 @@ export class HomeComponent extends ComponentNamer implements OnInit {
       this.readRepartoFileService.setRepartidorId(this.selectedRepartidorId);
       this.readRepartoFileService.setIndexEdificio(0);
       this.anim = true;
-      //Timer (wait until animation ended to navigate)
+      // Timer (wait until animation ended to navigate)
       var goOn = true;
       Observable.interval(1500)
         .takeWhile(() => goOn)
@@ -70,7 +70,7 @@ export class HomeComponent extends ComponentNamer implements OnInit {
           goOn = false;
         });
     } else {
-      console.log("No selecciono repartidor");
+      console.log('No selecciono repartidor');
     }
   }
 
