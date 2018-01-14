@@ -116,6 +116,9 @@ export class ReadRepartoFileService {
     edActual.direccion = direc + edActual.direccion.replace(direc, '').bold();
     return edActual;
   }
+  getTotalesPorRepartidor(repId) {
+    return this.reparto.cuerpoReporte.repartidores.find(r=> r.repartidorId == repId).totalesRepartidor;
+  }
 }
 
 

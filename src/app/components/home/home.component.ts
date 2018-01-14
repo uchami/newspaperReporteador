@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {AfterContentInit, Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {MatDialog} from '@angular/material';
 import {SelectDialogComponent} from '../select-repartidor-dialog/select-dialog.component';
 import {ReadRepartoFileService} from '../../services/read-reparto-file.service';
@@ -33,32 +33,37 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     super();
   }
   ngOnInit() {
-    let error = this.route.snapshot.paramMap.get('error');;
+    let error = this.route.snapshot.paramMap.get('error');
     if (parseInt(error) == 404) {
-      const fileNotFoundRef = this.dialog.open(MessageDialogComponent, {
-        data: {
-          message: 'El reparto para hoy no está!<br> Comunicate con quien maneje el programe y pedile que lo suba!<br> ' +
-          'Cuando estés listo recargá la aplicación.',
-          buttonText: 'Recargar página'
-        },
-        disableClose: true
-      });
-      fileNotFoundRef.afterClosed().subscribe(result => {
-        this.router.navigate(['home']);
+      setTimeout(() => {
+        const fileNotFoundRef = this.dialog.open(MessageDialogComponent, {
+          data: {
+            message: 'El reparto para hoy no está!<br> Comunicate con quien maneje el programe y pedile que lo suba!<br> ' +
+            'Cuando estés listo recargá la aplicación.',
+            buttonText: 'Recargar página'
+          }, disableClose: true
+        });
+        fileNotFoundRef.afterClosed().subscribe(result => {
+          this.router.navigate(['home']);
+        });
+      }, 0);
+
+    }
+    else{
+      this.readRepartoFileService.getReparto().subscribe( data => {
+        this.repartidores = this.readRepartoFileService.getRepartidores();
+        const cabecera = this.readRepartoFileService.getCabeceraReporte();
+        this.nombreParada = cabecera.nombreParada;
+        this.fechaListado = cabecera.fechaDeReparto;
+        this.ordenamiento = cabecera.orden.replace('ORDENADO POR: ','');
+      }, (err) => {
+        if (this.readRepartoFileService.noHayArchivo){
+          this.router.navigate(['home/404']);
+        }
       });
     }
-    this.readRepartoFileService.getReparto().subscribe( data => {
-      this.repartidores = this.readRepartoFileService.getRepartidores();
-      const cabecera = this.readRepartoFileService.getCabeceraReporte();
-      this.nombreParada = cabecera.nombreParada;
-      this.fechaListado = cabecera.fechaDeReparto;
-      this.ordenamiento = cabecera.orden.replace('ORDENADO POR: ','');
-    }, (err) => {
-      if (this.readRepartoFileService.noHayArchivo){
-        this.router.navigate(['home/404']);
-      }
-    });
   }
+
   openDialog(): void {
     const selectDialogRef = this.dialog.open(SelectDialogComponent, {
       data: {
@@ -93,6 +98,15 @@ export class HomeComponent extends ComponentNamer implements OnInit {
       this.repartidorNotSelected();
     }
   }
+
+  goTotalesDelRepartidor() {
+    if(this.selectedRepartidorId != null) {
+      this.router.navigate(['totales-del-repartidor/' + this.selectedRepartidorId]);
+    } else {
+      this.repartidorNotSelected();
+    }
+  }
+
   repartidorNotSelected() {
     this.dialog.open(MessageDialogComponent, {
       data: {

@@ -21,6 +21,7 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { TotalesComponent } from './components/totales/totales.component';
 import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
 import {MessageDialogComponent } from './components/message-modal/message-dialog.component';
+import { TotalesDelRepartidorComponent } from './components/totales-del-repartidor/totales-del-repartidor.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {MessageDialogComponent } from './components/message-modal/message-dialog
     DetalleEdificioComponent,
     TotalesComponent,
     FinalRepartoComponent,
-    MessageDialogComponent
+    MessageDialogComponent,
+    TotalesDelRepartidorComponent
   ],
   imports: [
     AppRoutingModule,

@@ -1,4 +1,4 @@
-import {ApplicationRef, Component, Input, OnInit} from '@angular/core';
+import {AfterContentInit, ApplicationRef, Component, Input, OnInit} from '@angular/core';
 import {ReadRepartoFileService} from '../../services/read-reparto-file.service';
 import {IEdificio} from '../../interfaces/IEdificio';
 
@@ -12,10 +12,6 @@ export class DetalleEdificioComponent implements OnInit {
   constructor() {
   }
   ngOnInit() {
-    /*document.getElementById("wrap").addEventListener("scroll",function(){
-      var translate = "translate(0,"+this.scrollTop+"px)";
-      this.querySelector("thead").style.transform = translate;
-    });*/
     var fauxTable = document.getElementById("faux-table");
     var mainTable = document.getElementById("main-table");
     var clonedElement = mainTable.cloneNode(true);

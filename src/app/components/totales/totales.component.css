@@ -29,11 +29,21 @@ tbody tr td.publicacion {
   width: 80%;
   word-break: break-all;
 }
+
+#table-wrap > #totales-header {
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+}
+
 /*Separadores*/
 tbody tr td {
   border-top: 1px solid #bfc1ce;
   border-right: 1px solid #bfc1ce;
   position: relative;
+}
+tbody tr:last-child {
+  border-bottom: 1px solid #bfc1ce;
 }
 tbody tr td:last-child {
   border-right: none;

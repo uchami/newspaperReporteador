@@ -11,6 +11,12 @@
   background-color: white;
   z-index: 99;
 }
+#detallereparto #headerContent h2 {
+  position: absolute;
+  left: 3vw;
+  max-width: 72vw;
+  word-break: break-all;
+}
 #detallereparto #headerContent button {
   background-color: #65b2c9;
   border: none;
@@ -24,7 +30,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
+  width: 22vw;
+  position: absolute;
+  right: 3vw;
 }
 #detallereparto #headerContent button img {
   height: 35%;

@@ -14,7 +14,10 @@ export class TotalesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
+    var fauxTable = document.getElementById("faux-totales-header");
+    var mainTable = document.getElementById("totales-header");
+    var clonedElement = mainTable.cloneNode(true);
+    fauxTable.appendChild(clonedElement);
   }
   feriadoOSusc(pub : ITotal){
     if(pub.color == 1){

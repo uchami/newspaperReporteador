@@ -22,7 +22,7 @@
               [ngClass]="{'last-item': i == (edificioActual.departamentos.length - 1)}" >
             {{(depto.nombre.length <= 5) ? depto.nombre : depto.nombre.substr(0,5)}}
           </td>
-          <td colspan="4"><b>RECORDÁ QUE</b><br> {{depto.observacion}}</td>
+          <td colspan="4" class="observacion"><b>RECORDÁ QUE</b><br> {{depto.observacion}}</td>
         </tr>
         <tr [ngClass]="{'grey': i%2 == 1}" *ngFor="let pub of edificioActual.departamentos[i].publicaciones; let j = index">
           <td *ngIf="j == 0 && depto.observacion.length == 0 && depto.nombre.length <= 5" class="deptoNombre"
