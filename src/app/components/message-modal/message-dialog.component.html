@@ -1,4 +1,5 @@
 <div mat-dialog-content>
-  <h1 [innerHtml]="message"></h1>
+  <h1 [innerHtml]="title"></h1>
+  <p [innerHtml]="message"></p>
 </div>
 <button (click)="closeModal()" mat-button class="main-button">{{buttonText}}</button>

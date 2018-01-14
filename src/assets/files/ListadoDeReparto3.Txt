@@ -23,7 +23,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
@@ -34,15 +34,15 @@
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 29,
                  "nombreRepartidor": "NO SE ENTREGA",
                 "edificios": [{
-                 "direccion": "R S  PEÑA 3380",
+                 "direccion": "R S  PEï¿½A 3380",
                    "departamentos": [{
                     "nombre": "",
                     "observacion": "FLETES ABEL - ENTREGAR A LAS 8 HS",
@@ -54,7 +54,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
@@ -65,15 +65,15 @@
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "NACION"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 8,
                  "nombreRepartidor": "PARADA",
@@ -90,13 +90,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "URUGUAY 3236",
                    "departamentos": [{
@@ -110,13 +110,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "URUGUAY 3261",
                    "departamentos": [{
@@ -130,13 +130,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTRADA 871",
                    "departamentos": [{
@@ -150,13 +150,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTRADA 860",
                    "departamentos": [{
@@ -170,13 +170,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 1118",
                    "departamentos": [{
@@ -190,7 +190,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
@@ -201,25 +201,25 @@
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "NACION"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 5,
                  "publicacion": "CLARIN"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "ELLE MODA"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 11,
                  "nombreRepartidor": "ZONA 1-    (CON LLAVE DE NEUQUEN)",
@@ -236,13 +236,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTRADA 1471",
                    "departamentos": [{
@@ -256,13 +256,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "POPULAR"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "CARBONE 3534",
                    "departamentos": [{
@@ -276,13 +276,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "CARBONE 3547",
                    "departamentos": [{
@@ -296,13 +296,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3617",
                    "departamentos": [{
@@ -316,13 +316,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3550",
                    "departamentos": [{
@@ -336,13 +336,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3522",
                    "departamentos": [{
@@ -356,13 +356,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "POPULAR"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3506",
                    "departamentos": [{
@@ -376,13 +376,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANCHORDOQUI 1321",
                    "departamentos": [{
@@ -396,13 +396,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANCHORDOQUI 1351",
                    "departamentos": [{
@@ -416,13 +416,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3483",
                    "departamentos": [{
@@ -436,13 +436,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3474",
                    "departamentos": [{
@@ -456,13 +456,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3424",
                    "departamentos": [{
@@ -476,7 +476,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
@@ -487,30 +487,30 @@
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 3,
                  "publicacion": "NACION"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 11,
                  "publicacion": "CLARIN"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 3,
                  "publicacion": "ELLE MODA"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 3,
                  "publicacion": "POPULAR"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 18,
                  "nombreRepartidor": "ZONA 2-",
@@ -527,13 +527,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "OLE  DEPORTIVO"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTRADA 1044",
                    "departamentos": [{
@@ -547,13 +547,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 3351",
                    "departamentos": [{
@@ -567,13 +567,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "PARABRISAS"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEWTON 1024",
                    "departamentos": [{
@@ -587,13 +587,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTRADA 1115",
                    "departamentos": [{
@@ -607,13 +607,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTRADA 1150",
                    "departamentos": [{
@@ -627,13 +627,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTRADA 1140",
                    "departamentos": [{
@@ -647,13 +647,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEWTON 1125",
                    "departamentos": [{
@@ -667,13 +667,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEWTON 1262",
                    "departamentos": [{
@@ -687,13 +687,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANSA 3456",
                    "departamentos": [{
@@ -707,13 +707,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANCHORDOQUI 1161",
                    "departamentos": [{
@@ -727,13 +727,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANCHORDOQUI 1160",
                    "departamentos": [{
@@ -747,13 +747,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANCHORDOQUI 1128",
                    "departamentos": [{
@@ -767,13 +767,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANSA 3569",
                    "departamentos": [{
@@ -785,7 +785,7 @@
                        "suscripcion": 0,
                        "extra": 0,
                        "cantidad": 1
-                      }, 
+                      },
                       {
                        "nombre": "POPULAR",
                        "feriado": 0,
@@ -798,13 +798,13 @@
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
-                   }, 
+                   },
                    {
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "POPULAR"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 3606",
                    "departamentos": [{
@@ -818,13 +818,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BATALLAN 3588",
                    "departamentos": [{
@@ -838,13 +838,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "PRENSA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 3494",
                    "departamentos": [{
@@ -858,13 +858,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 3475",
                    "departamentos": [{
@@ -878,7 +878,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
@@ -889,45 +889,45 @@
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 3,
                  "publicacion": "NACION"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 25,
                  "publicacion": "CLARIN"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 4,
                  "publicacion": "ELLE MODA"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 4,
                  "publicacion": "POPULAR"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "OLE  DEPORTIVO"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "PARABRISAS"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "PRENSA"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 20,
                  "nombreRepartidor": "ZONA 3-",
@@ -944,13 +944,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "URUGUAY 3435",
                    "departamentos": [{
@@ -964,13 +964,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MOSCONI 3369",
                    "departamentos": [{
@@ -984,13 +984,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANCHORDOQUI 898",
                    "departamentos": [{
@@ -1004,13 +1004,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "URUGUAY 3568",
                    "departamentos": [{
@@ -1024,15 +1024,15 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
-                    "direccion": "R S  PEÑA 3542",
+                    "direccion": "R S  PEï¿½A 3542",
                    "departamentos": [{
                     "nombre": "",
                     "observacion": "DEJAR DEBAJO DEL PORTON DEL GARAGE",
@@ -1044,7 +1044,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
@@ -1055,45 +1055,45 @@
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 4,
                  "publicacion": "NACION"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 28,
                  "publicacion": "CLARIN"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 6,
                  "publicacion": "ELLE MODA"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 4,
                  "publicacion": "POPULAR"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "OLE  DEPORTIVO"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "PARABRISAS"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "PRENSA"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 22,
                  "nombreRepartidor": "ZONA 4 -   SEBASTIAN",
@@ -1110,13 +1110,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BATALLAN 2966",
                    "departamentos": [{
@@ -1130,13 +1130,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BATALLAN 2884",
                    "departamentos": [{
@@ -1150,13 +1150,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BATALLAN 2864",
                    "departamentos": [{
@@ -1170,13 +1170,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BATALLAN 2805",
                    "departamentos": [{
@@ -1190,13 +1190,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 2979",
                    "departamentos": [{
@@ -1208,7 +1208,7 @@
                        "suscripcion": 1,
                        "extra": 0,
                        "cantidad": 1
-                      }, 
+                      },
                       {
                        "nombre": "EL PAIS",
                        "feriado": 0,
@@ -1221,13 +1221,13 @@
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "NACION"
-                   }, 
+                   },
                    {
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "EL PAIS"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 2992",
                    "departamentos": [{
@@ -1241,13 +1241,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "OLE  DEPORTIVO"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "PIO DIAZ 1084",
                    "departamentos": [{
@@ -1261,13 +1261,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANSA 2906",
                    "departamentos": [{
@@ -1281,13 +1281,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "POPULAR"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "PIO DIAZ 1259",
                    "departamentos": [{
@@ -1301,13 +1301,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "NEUQUEN 3086",
                    "departamentos": [{
@@ -1321,13 +1321,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 1320",
                    "departamentos": [{
@@ -1341,13 +1341,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CRONICA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 1366",
                    "departamentos": [{
@@ -1361,13 +1361,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "LAGE 1357",
                    "departamentos": [{
@@ -1381,13 +1381,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "LAGE 1321",
                    "departamentos": [{
@@ -1401,13 +1401,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANSA 3192",
                    "departamentos": [{
@@ -1421,13 +1421,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 1185",
                    "departamentos": [{
@@ -1441,13 +1441,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 1145",
                    "departamentos": [{
@@ -1461,13 +1461,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "TIEMPO MILITAR"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 1064",
                    "departamentos": [{
@@ -1481,13 +1481,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANSA 3036",
                    "departamentos": [{
@@ -1501,13 +1501,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 3076",
                    "departamentos": [{
@@ -1521,13 +1521,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "POPULAR"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 3176",
                    "departamentos": [{
@@ -1541,13 +1541,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MORIONDO 3265",
                    "departamentos": [{
@@ -1561,13 +1561,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "LAGE 1174",
                    "departamentos": [{
@@ -1581,13 +1581,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CRONICA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ANSA 3207",
                    "departamentos": [{
@@ -1601,7 +1601,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
@@ -1612,55 +1612,55 @@
                  "color": 0,
                  "cantidad": 3,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 9,
-                 "publicacion": "NACION"
-                }, 
+                 "publicacion": "NACION|S"
+                },
                 {
                  "color": 1,
                  "cantidad": 39,
-                 "publicacion": "CLARIN"
-                }, 
+                 "publicacion": "CLARIN|S"
+                },
                 {
                  "color": 1,
                  "cantidad": 9,
                  "publicacion": "ELLE MODA"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 6,
                  "publicacion": "POPULAR"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 2,
-                 "publicacion": "OLE  DEPORTIVO"
-                }, 
+                 "publicacion": "OLE  DEPORTIVO|S"
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
-                 "publicacion": "PARABRISAS"
-                }, 
+                 "publicacion": "PARABRISAS|F"
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "PRENSA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
-                 "publicacion": "EL PAIS"
-                }, 
+                 "publicacion": "EL PAIS|F"
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "TIEMPO MILITAR"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 26,
                  "nombreRepartidor": "ZONA 5 -",
@@ -1677,15 +1677,15 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
-                    "direccion": "R S  PEÑA 3294",
+                    "direccion": "R S  PEï¿½A 3294",
                    "departamentos": [{
                     "nombre": "",
                     "observacion": "TIRAR - con zonal los jueves",
@@ -1697,15 +1697,15 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
-                    "direccion": "R S  PEÑA 3168",
+                    "direccion": "R S  PEï¿½A 3168",
                    "departamentos": [{
                     "nombre": "",
                     "observacion": "PONER EN DIARIO 15-3895-7718   TIRAR",
@@ -1715,14 +1715,14 @@
                        "suscripcion": 1,
                        "extra": 0,
                        "cantidad": 1
-                      }, 
+                      },
                       {
                        "nombre": "ELLE MODA",
                        "feriado": 0,
                        "suscripcion": 1,
                        "extra": 0,
                        "cantidad": 1
-                      }, 
+                      },
                       {
                        "nombre": "EL PAIS",
                        "feriado": 0,
@@ -1735,20 +1735,20 @@
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "NACION"
-                   }, 
+                   },
                    {
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
-                   }, 
+                   },
                    {
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "EL PAIS"
                    }]
-                   }, 
+                   },
                    {
-                    "direccion": "R S  PEÑA 3165",
+                    "direccion": "R S  PEï¿½A 3165",
                    "departamentos": [{
                     "nombre": "3 A",
                     "observacion": "TIRAR - PONER 3 A  (DEJAR ANTES DE LAS 7 HS)",
@@ -1758,7 +1758,7 @@
                        "suscripcion": 1,
                        "extra": 0,
                        "cantidad": 1
-                      }, 
+                      },
                       {
                        "nombre": "ELLE MODA",
                        "feriado": 0,
@@ -1771,13 +1771,13 @@
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
-                   }, 
+                   },
                    {
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 775",
                    "departamentos": [{
@@ -1791,15 +1791,15 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
-                    "direccion": "R S  PEÑA 2937",
+                    "direccion": "R S  PEï¿½A 2937",
                    "departamentos": [{
                     "nombre": "",
                     "observacion": "x REJA CON GOMITA o BOLSITA SI LLUEVE",
@@ -1811,13 +1811,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "SPRINGOLO 857",
                    "departamentos": [{
@@ -1831,13 +1831,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "SPRINGOLO 728",
                    "departamentos": [{
@@ -1851,13 +1851,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "SPRINGOLO 695",
                    "departamentos": [{
@@ -1871,13 +1871,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMEGHINO 2956",
                    "departamentos": [{
@@ -1891,13 +1891,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMEGHINO 2978",
                    "departamentos": [{
@@ -1911,13 +1911,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "PIO DIAZ 640",
                    "departamentos": [{
@@ -1931,13 +1931,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "PIO DIAZ 618",
                    "departamentos": [{
@@ -1951,13 +1951,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "PARABRISAS"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "PIO DIAZ 785",
                    "departamentos": [{
@@ -1971,13 +1971,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMEGHINO 3037",
                    "departamentos": [{
@@ -1991,13 +1991,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMEGHINO 3090",
                    "departamentos": [{
@@ -2011,13 +2011,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 685",
                    "departamentos": [{
@@ -2031,13 +2031,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "OLE  DEPORTIVO"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 635",
                    "departamentos": [{
@@ -2051,13 +2051,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMEGHINO 3144",
                    "departamentos": [{
@@ -2071,13 +2071,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CRONICA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MOSCONI 3192",
                    "departamentos": [{
@@ -2091,13 +2091,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "RAFFO 3255",
                    "departamentos": [{
@@ -2111,13 +2111,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BEAZLEY 466",
                    "departamentos": [{
@@ -2131,13 +2131,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MOSCONI 3090",
                    "departamentos": [{
@@ -2151,13 +2151,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MOSCONI 2969",
                    "departamentos": [{
@@ -2171,13 +2171,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MOSCONI 2921",
                    "departamentos": [{
@@ -2191,13 +2191,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "URUGUAY 3113",
                    "departamentos": [{
@@ -2211,13 +2211,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "URUGUAY 3142",
                    "departamentos": [{
@@ -2231,13 +2231,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "PARABRISAS"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "URUGUAY 3153",
                    "departamentos": [{
@@ -2251,7 +2251,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
@@ -2262,60 +2262,60 @@
                  "color": 0,
                  "cantidad": 4,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 11,
                  "publicacion": "NACION"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 58,
                  "publicacion": "CLARIN"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 14,
                  "publicacion": "ELLE MODA"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 6,
                  "publicacion": "POPULAR"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 3,
                  "publicacion": "OLE  DEPORTIVO"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 3,
                  "publicacion": "PARABRISAS"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "PRENSA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 2,
                  "publicacion": "EL PAIS"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "TIEMPO MILITAR"
-                }, 
+                },
                 {
                 }]
-                }, 
+                },
                 {
                  "repartidorId": 27,
                  "nombreRepartidor": "ZONA 6 -  JAVIER",
                 "edificios": [{
-                 "direccion": "R S  PEÑA 2845",
+                 "direccion": "R S  PEï¿½A 2845",
                    "departamentos": [{
                     "nombre": "3 B",
                     "observacion": "",
@@ -2327,13 +2327,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMERICA 668",
                    "departamentos": [{
@@ -2347,13 +2347,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMERICA 641",
                    "departamentos": [{
@@ -2367,13 +2367,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMERICA 478",
                    "departamentos": [{
@@ -2387,13 +2387,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AMERICA 306",
                    "departamentos": [{
@@ -2407,13 +2407,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTOCOLMO 2717",
                    "departamentos": [{
@@ -2427,13 +2427,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AV GRAL PAZ 2864",
                    "departamentos": [{
@@ -2447,13 +2447,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AV GRAL PAZ 2578",
                    "departamentos": [{
@@ -2467,13 +2467,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "AV GRAL PAZ 2670",
                    "departamentos": [{
@@ -2487,13 +2487,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "SUPLEMENTO ARQUITECTURA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BENITO LYNCH 2685",
                    "departamentos": [{
@@ -2507,13 +2507,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BENITO LYNCH 2665",
                    "departamentos": [{
@@ -2527,13 +2527,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BENITO LYNCH 2664",
                    "departamentos": [{
@@ -2547,13 +2547,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "ELLE MODA"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "POSADAS 561",
                    "departamentos": [{
@@ -2567,13 +2567,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "NACION"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "MOSCONI 2509",
                    "departamentos": [{
@@ -2587,13 +2587,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "POPULAR"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "BENITO LYNCH 2840",
                    "departamentos": [{
@@ -2607,13 +2607,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "SPRINGOLO 409",
                    "departamentos": [{
@@ -2627,13 +2627,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 0,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "SPRINGOLO 285",
                    "departamentos": [{
@@ -2647,13 +2647,13 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
                     "publicacion": "CLARIN"
                    }]
-                   }, 
+                   },
                    {
                     "direccion": "ESTOCOLMO 2834",
                    "departamentos": [{
@@ -2667,7 +2667,7 @@
                        "cantidad": 1
                       }]
                    }]
-                      , 
+                      ,
                    "totalesEdificio": [{
                     "color": 1,
                     "cantidad": 1,
@@ -2678,57 +2678,57 @@
                  "color": 0,
                  "cantidad": 4,
                  "publicacion": "CRONICA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 12,
                  "publicacion": "NACION"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 68,
                  "publicacion": "CLARIN"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 19,
                  "publicacion": "ELLE MODA"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 7,
                  "publicacion": "POPULAR"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 3,
                  "publicacion": "OLE  DEPORTIVO"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 3,
                  "publicacion": "PARABRISAS"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "PRENSA"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 2,
                  "publicacion": "EL PAIS"
-                }, 
+                },
                 {
                  "color": 0,
                  "cantidad": 1,
                  "publicacion": "TIEMPO MILITAR"
-                }, 
+                },
                 {
                  "color": 1,
                  "cantidad": 1,
                  "publicacion": "SUPLEMENTO ARQUITECTURA"
-                }, 
+                },
                 {
                 }]
              }]

@@ -33,24 +33,31 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     super();
   }
   ngOnInit() {
+    const predefinedRepId = parseInt(this.route.snapshot.paramMap.get('repId'));
+    if(predefinedRepId && predefinedRepId != -1) {
+      this.selectedRepartidorId = predefinedRepId;
+    }
+
     let error = this.route.snapshot.paramMap.get('error');
     if (parseInt(error) == 404) {
       setTimeout(() => {
         const fileNotFoundRef = this.dialog.open(MessageDialogComponent, {
           data: {
-            message: 'El reparto para hoy no está!<br> Comunicate con quien maneje el programe y pedile que lo suba!<br> ' +
+            title: 'El reparto para hoy no está!<br>',
+            message: 'Comunicate con quien maneje el programa y pedile que lo suba.<br> ' +
             'Cuando estés listo recargá la aplicación.',
             buttonText: 'Recargar página'
           }, disableClose: true
         });
         fileNotFoundRef.afterClosed().subscribe(result => {
-          this.router.navigate(['home']);
+          this.router.navigate(['home/'+ predefinedRepId]);
         });
       }, 0);
-
     }
     else{
       this.readRepartoFileService.getReparto().subscribe( data => {
+        this.selectedRepartidor = this.readRepartoFileService.getRepartidorName(this.selectedRepartidorId);
+        console.log(this.selectedRepartidor);
         this.repartidores = this.readRepartoFileService.getRepartidores();
         const cabecera = this.readRepartoFileService.getCabeceraReporte();
         this.nombreParada = cabecera.nombreParada;
@@ -58,7 +65,7 @@ export class HomeComponent extends ComponentNamer implements OnInit {
         this.ordenamiento = cabecera.orden.replace('ORDENADO POR: ','');
       }, (err) => {
         if (this.readRepartoFileService.noHayArchivo){
-          this.router.navigate(['home/404']);
+          this.router.navigate(['home/-1/404']);
         }
       });
     }
@@ -110,7 +117,8 @@ export class HomeComponent extends ComponentNamer implements OnInit {
   repartidorNotSelected() {
     this.dialog.open(MessageDialogComponent, {
       data: {
-        message: 'No sabemos quién sos!<br> Elegí un repartidor para continuar',
+        title: 'No sabemos quién sos!<br>',
+        message: 'Elegí un repartidor para continuar',
         buttonText: 'Entendido'
       }
     });

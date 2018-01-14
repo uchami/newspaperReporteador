@@ -23,9 +23,8 @@ export class ReadRepartoFileService {
   constructor(private http: HttpClient, private cookieService: CookieService) {
   }
   getReparto(): Observable<any> {
-    const obs = this.http.get<IReparto>('./assets/files/ListadoDeRepartoV2.txt');
+    const obs = this.http.get<IReparto>('./assets/files/ListadoDeReparto3.Txt');
     obs.subscribe(data => {
-      console.log(data);
       this.reparto = data;
     },
     (err) => {
@@ -33,7 +32,6 @@ export class ReadRepartoFileService {
         this.reparto = null;
         this.noHayArchivo = true;
       }
-      console.log(err);
     });
     return obs;
   }
@@ -50,8 +48,7 @@ export class ReadRepartoFileService {
   getEdificios() {
     const repId = this.getRepartidorId();
     const res = [];
-    console.log(this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId));
-    const edificios = this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId).edificios;
+    const edificios = this.getRepartidorById(repId).edificios;
     for (let i = 0; i <  edificios.length; i++){
       res.push({"name":edificios[i].direccion, "value": i});
     }
@@ -110,14 +107,25 @@ export class ReadRepartoFileService {
   getEdificioActual() {
     const repId = this.getRepartidorId();
     const indexEd = this.getIndexEdificio();
-    const edActual = Object.create(this.reparto.cuerpoReporte.repartidores.find(r => r.repartidorId == repId).edificios[indexEd]);
+    const edActual = Object.create(this.getRepartidorById(repId).edificios[indexEd]);
     let direc = edActual.direccion;
     direc = direc.slice(0, direc.lastIndexOf(' '));
     edActual.direccion = direc + edActual.direccion.replace(direc, '').bold();
     return edActual;
   }
+  getRepartidorById(repId) {
+    return this.reparto.cuerpoReporte.repartidores.find(r=> r.repartidorId == repId);
+  }
   getTotalesPorRepartidor(repId) {
-    return this.reparto.cuerpoReporte.repartidores.find(r=> r.repartidorId == repId).totalesRepartidor;
+    return this.getRepartidorById(repId).totalesRepartidor;
+  }
+  getRepartidorName(repId) {
+    const rep = this.getRepartidorById(repId);
+    if(rep != null){
+      return rep.nombreRepartidor;
+    } else {
+      return null;
+    }
   }
 }
 

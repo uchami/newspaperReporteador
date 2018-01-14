@@ -5,8 +5,10 @@
   <div id="faux-totales-header"></div>
   <table id="totales-table" cellpadding="20" cellspacing="0">
     <tbody>
-      <tr *ngFor="let pub of totales">
-        <td [ngClass]="{'feriado':(feriadoOSusc(pub) == 'F'), 'suscripcion': (feriadoOSusc(pub) == 'S'), 'estado': feriadoOSusc(pub) == 'F' || feriadoOSusc(pub) == 'S' }"><span>{{feriadoOSusc(pub)}}</span></td>
+      <tr *ngFor="let pub of totalesData">
+        <td [ngClass]="{'feriado': pub.letter == 'F', 'suscripcion': pub.letter == 'S', 'estado': pub.letter == 'F' || pub.letter == 'S' }">
+          <span>{{pub.letter}}</span>
+        </td>
         <td class="publicacion"><b>{{pub.cantidad}}</b> {{pub.publicacion}}</td>
       </tr>
     </tbody>

@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   {path: 'login' , component: LoginComponent, data: { state: 'login' }},
   {path: 'home' , component: HomeComponent, data: { state: 'home' }},
-  {path: 'home/:error' , component: HomeComponent, data: { state: 'home' }},
+  {path: 'home/:repId' , component: HomeComponent, data: { state: 'home' }},
+  {path: 'home/:repId/:error' , component: HomeComponent, data: { state: 'home' }},
   {path: 'detalle-reparto' , component: DetalleRepartoComponent, data: { state: 'detalle-reparto' }},
   {path: 'totales-del-repartidor/:repId' , component: TotalesDelRepartidorComponent, data: { state: 'totales-del-repartidor' }},
   {path: 'final-reparto' , component: FinalRepartoComponent, data: { state: 'final-reparto' }}

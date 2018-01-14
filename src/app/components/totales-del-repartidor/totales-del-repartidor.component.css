@@ -1,0 +1,49 @@
+#totalesdelrepartidor {
+  background-color: white;
+}
+/*Header*/
+#totalesdelrepartidor #headerContent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  z-index: 99;
+}
+#totalesdelrepartidor #headerContent h2 {
+  position: absolute;
+  left: 3vw;
+  max-width: 72vw;
+  word-break: break-all;
+}
+#totalesdelrepartidor #headerContent button {
+  background-color: #65b2c9;
+  border: none;
+  padding: 3%;
+  color: white;
+  font-family: "Lato";
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 93px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 22vw;
+  position: absolute;
+  right: 3vw;
+}
+#totalesdelrepartidor #headerContent button img {
+  height: 35%;
+  position: absolute;
+}
+#totalesdelrepartidor app-totales {
+  padding-top: 11vh;
+  display: block;
+}
+/*End Header*/

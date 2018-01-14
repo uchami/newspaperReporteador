@@ -36,7 +36,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
       scrollTo(0, 0);
     }, (err) => {
       if (this.readRepartoFileService.noHayArchivo){
-        this.router.navigate(['home/404']);
+        this.router.navigate(['home/-1/404']);
       }
     });
   }

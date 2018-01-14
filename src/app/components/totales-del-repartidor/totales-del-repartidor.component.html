@@ -1,4 +1,6 @@
-<p>
-  totales-del-repartidor works!
-</p>
-<app-totales [title]="'TOTALES'" [totales]="totales"></app-totales>
+<div id="{{componentName}}">
+  <div id="headerContent">
+    <h2 [innerHtml]="repartidorName"></h2><button (click)="goHome()"><img src="./assets/images/left-arrow.png"></button>
+  </div>
+  <app-totales [title]="'TOTALES'" [totales]="totales"></app-totales>
+</div>

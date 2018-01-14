@@ -1,6 +1,12 @@
 h1 {
   font-size: 1.7em;
 }
+p{
+  text-align: center;
+  color: #3b6397;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
 .main-button {
   width: 100%;
   height: 62px;
