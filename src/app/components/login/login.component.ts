@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
 import {Router} from '@angular/router';
 import {ComponentNamer} from '../../app.component';
+import {IUser} from '../../interfaces/IUser';
+import {LoginService} from '../../services/login.service';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +13,7 @@ import {ComponentNamer} from '../../app.component';
 })
 export class LoginComponent extends ComponentNamer implements OnInit {
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private loginService: LoginService) {
     super();
   }
   user = '';
@@ -28,16 +30,19 @@ export class LoginComponent extends ComponentNamer implements OnInit {
   loginAction(){
     this.userSent = this.user;
     this.passSent = this.password;
-    if(this.user.toLowerCase() == "admin" && this.password.toLowerCase() == "admin") {
+    this.loginService.login(this.user, this.password, false).subscribe(d => {
+
+    });
+    /*if() {
       this.userValidation = true;
       this.passwordValidation = true;
 
       this.router.navigate(['home']);
     }
     else{
-      this.userValidation = true;
+      this.userValidation = false;
       this.passwordValidation = false;
-    }
+    }*/
   }
   classValidationPassword(){
     if ((this.passwordValidation != null) && (this.passSent == this.password) && (this.userSent == this.user)){

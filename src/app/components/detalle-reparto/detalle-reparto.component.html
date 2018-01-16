@@ -6,7 +6,7 @@
 
   <div id="content">
     <app-detalle-edificio [edificioActual]="edificioActual" *ngIf="viewDetalle"></app-detalle-edificio>
-    <app-totales *ngIf="!viewDetalle" [title]="titleTotales" [totales]="edificioActual.totalesEdificio"></app-totales>
+    <app-totales *ngIf="!viewDetalle" [title]="titleTotales" [totales]="totalesEdificio"></app-totales>
   </div>
 
   <div id="footerContent">

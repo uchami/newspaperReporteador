@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import {IEdificio} from '../../interfaces/IEdificio';
 import {ITotal} from '../../interfaces/ITotal';
 import {ITotalDTO} from '../../interfaces/ITotalDTO';
@@ -8,7 +8,7 @@ import {ITotalDTO} from '../../interfaces/ITotalDTO';
   templateUrl: './totales.component.html',
   styleUrls: ['./totales.component.css']
 })
-export class TotalesComponent implements OnInit {
+export class TotalesComponent implements OnInit, OnChanges {
 
   @Input() title;
   @Input() totales: ITotal[];
@@ -20,7 +20,9 @@ export class TotalesComponent implements OnInit {
     var mainTable = document.getElementById("totales-header");
     var clonedElement = mainTable.cloneNode(true);
     fauxTable.appendChild(clonedElement);
-
+  }
+  ngOnChanges() {
+    this.totalesData = [];
     this.totales.forEach(tot => {
       var newTot: ITotalDTO = <ITotalDTO>{};
       newTot.color = tot.color;

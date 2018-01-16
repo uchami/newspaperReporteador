@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/of';
 import {HttpClient} from '@angular/common/http';
 import {IReparto} from '../interfaces/IReparto';
 import {CookieOptionsArgs, CookieService} from 'angular2-cookie/core';
@@ -15,25 +16,41 @@ export class ReadRepartoFileService {
     expires: this.addDays(new Date(), 15)
   };
 
+  constructor(private http: HttpClient, private cookieService: CookieService) {
+  }
+
   addDays(date, days) {
     const one_day = 1000 * 60 * 60 * 24;
     return new Date(date.getTime() + (days * one_day));
   }
 
-  constructor(private http: HttpClient, private cookieService: CookieService) {
-  }
-  getReparto(): Observable<any> {
-    const obs = this.http.get<IReparto>('./assets/files/ListadoDeReparto3.Txt');
-    obs.subscribe(data => {
-      this.reparto = data;
-    },
-    (err) => {
-      if (err.status == 404) {
-        this.reparto = null;
-        this.noHayArchivo = true;
-      }
-    });
+  getReparto(): Observable<IReparto> {
+    let obs: Observable<IReparto>;
+    let localReparto = JSON.parse(localStorage.getItem('reparto'));
+    if(localReparto && this.repartoIsValid(localReparto)) {
+      obs = Observable.of(localReparto);
+      this.reparto = localReparto;
+    } else {
+      obs = this.http.get<IReparto>('./assets/files/ListadoDeReparto3.Txt');
+      obs.subscribe(data => {
+          this.reparto = data;
+          localStorage.setItem('reparto', JSON.stringify(data));
+        },
+        (err) => {
+          if (err.status == 404) {
+            this.reparto = null;
+            this.noHayArchivo = true;
+          }
+        });
+    }
     return obs;
+  }
+
+  repartoIsValid(reparto) {
+    const fechaReparto = reparto.cabeceraReporte.fechaDeReparto.split('/');
+    const today = new Date();
+    today.setHours(0,0,0,0);
+    return ( today == new Date(fechaReparto[2],fechaReparto[1]-1, fechaReparto[0]));
   }
 
   getRepartidores() {

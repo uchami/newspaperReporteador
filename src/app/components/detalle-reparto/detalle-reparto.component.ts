@@ -6,6 +6,7 @@ import {SelectDialogComponent} from '../select-repartidor-dialog/select-dialog.c
 import {MatDialog} from '@angular/material';
 import {Router} from '@angular/router';
 import {routerTransition} from '../../routing.animation';
+import {ITotal} from '../../interfaces/ITotal';
 
 
 @Component({
@@ -19,6 +20,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   viewDetalle = true;
   totalesButtonText = "TOTALES";
   edificioActual : IEdificio;
+  totalesEdificio: ITotal[];
   todosLosEdificios = [];
   titleTotales = "TOTALES DEL EDIFICIO";
   indexEdificio = -1;
@@ -26,11 +28,13 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   constructor(private readRepartoFileService : ReadRepartoFileService, private dialog : MatDialog, private router: Router) {
     super();
     this.edificioActual = {direccion:"", departamentos:[], totalesEdificio:[]};
+    this.totalesEdificio = [];
   }
 
   ngOnInit() {
     this.readRepartoFileService.getReparto().subscribe( data => {
       this.edificioActual = this.readRepartoFileService.getEdificioActual();
+      this.totalesEdificio = this.edificioActual.totalesEdificio;
       this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
       this.todosLosEdificios = this.readRepartoFileService.getEdificios();
       scrollTo(0, 0);
@@ -41,8 +45,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
     });
   }
 
-  nextEdificio(){
-
+  nextEdificio() {
     this.readRepartoFileService.setNextIndexEdificio();
     const prevIndex = this.indexEdificio;
     this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
@@ -51,13 +54,15 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
       this.router.navigate(['final-reparto']);
     }
     this.edificioActual = this.readRepartoFileService.getEdificioActual();
+    this.totalesEdificio = this.edificioActual.totalesEdificio;
   }
   prevEdificio(){
     this.readRepartoFileService.setPrevIndexEdificio();
     this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
     this.edificioActual = this.readRepartoFileService.getEdificioActual();
+    this.totalesEdificio = this.edificioActual.totalesEdificio;
   }
-  showEdificioSelect(){
+  showEdificioSelect() {
     let selectDialogRef = this.dialog.open(SelectDialogComponent, {
       data: {
         title: 'Seleccione edificio',

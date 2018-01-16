@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnChanges, OnInit} from '@angular/core';
 import {routerTransition} from './routing.animation';
 
 @Component({
@@ -8,10 +8,16 @@ import {routerTransition} from './routing.animation';
   animations: [ routerTransition ]
 })
 export class AppComponent implements OnInit {
+  constructor() {
+
+  }
   ngOnInit(){
   }
   getState(outlet) {
     return outlet.activatedRouteData.state;
+  }
+  checkUserIsValid() {
+    console.log('NO!');
   }
 }
 

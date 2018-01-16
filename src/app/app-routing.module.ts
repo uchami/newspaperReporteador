@@ -6,17 +6,21 @@ import {DetalleRepartoComponent} from './components/detalle-reparto/detalle-repa
 import {TotalesComponent} from './components/totales/totales.component';
 import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
 import {TotalesDelRepartidorComponent} from './components/totales-del-repartidor/totales-del-repartidor.component';
+import {AuthGuard} from './_guards';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  {path: '', redirectTo: 'login', pathMatch: 'full'},
   {path: 'login' , component: LoginComponent, data: { state: 'login' }},
-  {path: 'home' , component: HomeComponent, data: { state: 'home' }},
-  {path: 'home/:repId' , component: HomeComponent, data: { state: 'home' }},
-  {path: 'home/:repId/:error' , component: HomeComponent, data: { state: 'home' }},
-  {path: 'detalle-reparto' , component: DetalleRepartoComponent, data: { state: 'detalle-reparto' }},
-  {path: 'totales-del-repartidor/:repId' , component: TotalesDelRepartidorComponent, data: { state: 'totales-del-repartidor' }},
-  {path: 'final-reparto' , component: FinalRepartoComponent, data: { state: 'final-reparto' }}
+  {path: 'home' , component: HomeComponent, data: { state: 'home' }, canActivate: [AuthGuard]},
+  {path: 'home/:repId' , component: HomeComponent, data: { state: 'home'}, canActivate: [AuthGuard]},
+  {path: 'home/:repId/:error' , component: HomeComponent, data: { state: 'home' }, canActivate: [AuthGuard]},
+  {path: 'detalle-reparto' , component: DetalleRepartoComponent, data: { state: 'detalle-reparto' }, canActivate: [AuthGuard]},
+  {path: 'totales-del-repartidor/:repId' , component: TotalesDelRepartidorComponent, data: { state: 'totales-del-repartidor' }, canActivate: [AuthGuard]},
+  {path: 'final-reparto' , component: FinalRepartoComponent, data: { state: 'final-reparto' }, canActivate: [AuthGuard]},
+
+  // otherwise redirect to home
+  { path: '**', redirectTo: '' }
 ];
 export const routableComponents = [
   LoginComponent,

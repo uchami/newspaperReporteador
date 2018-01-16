@@ -23,12 +23,14 @@ export class TotalesDelRepartidorComponent extends ComponentNamer implements OnI
   ngOnInit() {
     const repId = this.route.snapshot.paramMap.get('repId');
     this.repId = parseInt(repId);
-    if(this.readRepartoFileService.reparto == null) {
-      this.router.navigate(['home/-1/404']);
-    } else {
+    this.readRepartoFileService.getReparto().subscribe(reparto => {
       this.repartidorName = this.readRepartoFileService.getRepartidorName(repId).bold();
       this.totales = this.readRepartoFileService.getTotalesPorRepartidor(repId);
-    }
+    }, (err) => {
+      if (this.readRepartoFileService.noHayArchivo){
+        this.router.navigate(['home/-1/404']);
+      }
+    });
   }
   goHome() {
     this.router.navigate(['home/'+ this.repId]);

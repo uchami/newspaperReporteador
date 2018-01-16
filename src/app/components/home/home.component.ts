@@ -33,6 +33,8 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     super();
   }
   ngOnInit() {
+
+
     const predefinedRepId = parseInt(this.route.snapshot.paramMap.get('repId'));
     if(predefinedRepId && predefinedRepId != -1) {
       this.selectedRepartidorId = predefinedRepId;
@@ -50,6 +52,7 @@ export class HomeComponent extends ComponentNamer implements OnInit {
           }, disableClose: true
         });
         fileNotFoundRef.afterClosed().subscribe(result => {
+          localStorage.removeItem('reparto');
           this.router.navigate(['home/'+ predefinedRepId]);
         });
       }, 0);
@@ -57,7 +60,6 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     else{
       this.readRepartoFileService.getReparto().subscribe( data => {
         this.selectedRepartidor = this.readRepartoFileService.getRepartidorName(this.selectedRepartidorId);
-        console.log(this.selectedRepartidor);
         this.repartidores = this.readRepartoFileService.getRepartidores();
         const cabecera = this.readRepartoFileService.getCabeceraReporte();
         this.nombreParada = cabecera.nombreParada;

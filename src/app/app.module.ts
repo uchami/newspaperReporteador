@@ -22,6 +22,8 @@ import { TotalesComponent } from './components/totales/totales.component';
 import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
 import {MessageDialogComponent } from './components/message-modal/message-dialog.component';
 import { TotalesDelRepartidorComponent } from './components/totales-del-repartidor/totales-del-repartidor.component';
+import {AuthGuard} from './_guards';
+import {LoginService} from './services/login.service';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,7 @@ import { TotalesDelRepartidorComponent } from './components/totales-del-repartid
     MatMenuModule, MatSelectModule, FormsModule, MatInputModule,
     MatFormFieldModule, MatDialogModule, MatListModule, MatTableModule
   ],
-  providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent ],
+  providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent, AuthGuard, LoginService ],
   bootstrap: [AppComponent],
   entryComponents: [SelectDialogComponent, MessageDialogComponent]
 })
