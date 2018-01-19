@@ -1,8 +1,10 @@
 <?php
-include 'php-jwt-master\src\JWT.php';
-include 'php-jwt-master\src\BeforeValidException.php';
-include 'php-jwt-master\src\ExpiredException.php';
-include 'php-jwt-master\src\SignatureInvalidException.php';
+$path = "php-jwt-master/src/";
+include $path . 'JWT.php';
+include $path . 'BeforeValidException.php';
+include $path . 'ExpiredException.php';
+include $path . 'SignatureInvalidException.php';
+
 error_reporting(0);
 ini_set('display_errors', 0);
 
@@ -11,6 +13,7 @@ $key = "newspaperKeyTest";
 
 $user = $_POST['username'];
 $pass = $_POST['password'];
+$pass = str_replace("96bf6314b679ba43775964fdd65aa0e4","",base64_decode($pass));
 
 // Create connection
 $db = new PDO('mysql:host=localhost;dbname=newspaperxxi;charset=utf8mb4', 'root', '', array(PDO::ATTR_EMULATE_PREPARES => false, 
