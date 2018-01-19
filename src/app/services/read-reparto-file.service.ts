@@ -4,6 +4,7 @@ import 'rxjs/add/observable/of';
 import {HttpClient} from '@angular/common/http';
 import {IReparto} from '../interfaces/IReparto';
 import {CookieOptionsArgs, CookieService} from 'angular2-cookie/core';
+import {LoginService} from './login.service';
 
 @Injectable()
 export class ReadRepartoFileService {
@@ -16,7 +17,7 @@ export class ReadRepartoFileService {
     expires: this.addDays(new Date(), 15)
   };
 
-  constructor(private http: HttpClient, private cookieService: CookieService) {
+  constructor(private http: HttpClient, private cookieService: CookieService, private loginService: LoginService) {
   }
 
   addDays(date, days) {
@@ -31,7 +32,15 @@ export class ReadRepartoFileService {
       obs = Observable.of(localReparto);
       this.reparto = localReparto;
     } else {
-      obs = this.http.get<IReparto>('./assets/files/ListadoDeReparto3.Txt');
+      const today = new Date();
+      const month = (today.getMonth() + 1) < 10 ? ("0" + (today.getMonth() + 1) ) : (today.getMonth() + 1);
+      const date = today.getDate() < 10 ? ("0" + today.getDate()) : today.getDate();
+      let fileName = "";
+      fileName += "R";
+      fileName += "" + today.getFullYear() + month + date;
+      fileName += this.loginService.getCurrentUser().identificacion;
+      console.log(fileName);
+      obs = this.http.get<IReparto>('./assets/files/'+ fileName +'.Txt');
       obs.subscribe(data => {
           this.reparto = data;
           localStorage.setItem('reparto', JSON.stringify(data));

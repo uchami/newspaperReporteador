@@ -23,7 +23,8 @@ export class LoginService {
 
 
   login(username, password, remember): Observable<string> {
-    let body = `username=${username}&password=${password}`;
+
+    let body = `username=${username}&password=${btoa("96bf6314b679ba43775964fdd65aa0e4" + password)}`;
     let headers = new HttpHeaders();
     headers = headers.set('Content-Type','application/x-www-form-urlencoded');
 
