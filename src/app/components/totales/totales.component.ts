@@ -23,14 +23,16 @@ export class TotalesComponent implements OnInit, OnChanges {
   }
   ngOnChanges() {
     this.totalesData = [];
-    this.totales.forEach(tot => {
-      var newTot: ITotalDTO = <ITotalDTO>{};
-      newTot.color = tot.color;
-      newTot.cantidad = tot.cantidad;
-      newTot.letter = this.feriadoOSusc(tot);
-      newTot.publicacion = tot.publicacion;
-      this.totalesData.push(newTot);
-    });
+    if(this.totales){
+      this.totales.forEach(tot => {
+        var newTot: ITotalDTO = <ITotalDTO>{};
+        newTot.color = tot.color;
+        newTot.cantidad = tot.cantidad;
+        newTot.letter = this.feriadoOSusc(tot);
+        newTot.publicacion = tot.publicacion;
+        this.totalesData.push(newTot);
+      });
+    }
   }
   feriadoOSusc(pub : ITotal){
     if(pub.color == 1){

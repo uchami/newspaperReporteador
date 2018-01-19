@@ -18,7 +18,7 @@
         <input matInput type="password" placeholder="Contraseña" [(ngModel)]="password" name="password">
         <img [src]="'./assets/images/lock' + lockImage + '.png'">
       </mat-form-field>
-      <mat-checkbox color="primary">¿Recordar <b>datos</b>?</mat-checkbox>
+      <mat-checkbox color="primary" [(ngModel)]="remember" [ngModelOptions]="{standalone: true}">¿Recordar <b>datos</b>?</mat-checkbox>
       <button type="submit" class="main-button" mat-button>ENTRAR</button>
     </form>
   </div>

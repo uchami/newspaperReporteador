@@ -24,25 +24,27 @@ export class LoginComponent extends ComponentNamer implements OnInit {
   passwordValidation = null;
   lockImage = '';
   userImage = '';
+  remember = false;
   ngOnInit() {
+    if(this.loginService.isActive()){
+      this.router.navigate(['home']);
+    }
   }
 
   loginAction(){
     this.userSent = this.user;
     this.passSent = this.password;
-    this.loginService.login(this.user, this.password, false).subscribe(d => {
-
+    this.loginService.login(this.user, this.password, this.remember).subscribe(d => {
+      if(this.loginService.isActive()) {
+        this.userValidation = true;
+        this.passwordValidation = true;
+        this.router.navigate(['home']);
+      }
+      else{
+        this.userValidation = false;
+        this.passwordValidation = false;
+      }
     });
-    /*if() {
-      this.userValidation = true;
-      this.passwordValidation = true;
-
-      this.router.navigate(['home']);
-    }
-    else{
-      this.userValidation = false;
-      this.passwordValidation = false;
-    }*/
   }
   classValidationPassword(){
     if ((this.passwordValidation != null) && (this.passSent == this.password) && (this.userSent == this.user)){

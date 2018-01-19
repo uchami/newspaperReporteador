@@ -16,9 +16,6 @@ export class AppComponent implements OnInit {
   getState(outlet) {
     return outlet.activatedRouteData.state;
   }
-  checkUserIsValid() {
-    console.log('NO!');
-  }
 }
 
 export class ComponentNamer {
