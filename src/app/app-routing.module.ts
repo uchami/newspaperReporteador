@@ -3,10 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import {LoginComponent} from './components/login/login.component';
 import {HomeComponent} from './components/home/home.component';
 import {DetalleRepartoComponent} from './components/detalle-reparto/detalle-reparto.component';
-import {TotalesComponent} from './components/totales/totales.component';
 import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
 import {TotalesDelRepartidorComponent} from './components/totales-del-repartidor/totales-del-repartidor.component';
 import {AuthGuard} from './_guards';
+import {Angulartics2Module} from 'angulartics2';
+import {Angulartics2GoogleAnalytics} from 'angulartics2/ga';
+
 
 
 const routes: Routes = [
@@ -31,7 +33,10 @@ export const routableComponents = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [
+            RouterModule.forRoot(routes, { useHash: true }),
+            Angulartics2Module.forRoot([Angulartics2GoogleAnalytics],{pageTracking: {clearIds: true}})
+           ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

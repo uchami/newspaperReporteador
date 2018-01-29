@@ -4,6 +4,7 @@ import {Router} from '@angular/router';
 import {ComponentNamer} from '../../app.component';
 import {IUser} from '../../interfaces/IUser';
 import {LoginService} from '../../services/login.service';
+import {Angulartics2} from 'angulartics2';
 
 @Component({
   selector: 'app-login',
@@ -13,7 +14,7 @@ import {LoginService} from '../../services/login.service';
 })
 export class LoginComponent extends ComponentNamer implements OnInit {
 
-  constructor(private router: Router, private loginService: LoginService) {
+  constructor(private router: Router, private loginService: LoginService, private angulartics2: Angulartics2) {
     super();
   }
   user = '';
@@ -41,6 +42,10 @@ export class LoginComponent extends ComponentNamer implements OnInit {
       if(this.loginService.isActive()) {
         this.userValidation = true;
         this.passwordValidation = true;
+        this.angulartics2.eventTrack.next({
+          action: 'LoginSuccesful',
+          properties: { category: 'Login' },
+        });
         this.router.navigate(['home']);
       }
       else{

@@ -1,5 +1,7 @@
 import {Component, OnChanges, OnInit} from '@angular/core';
 import {routerTransition} from './routing.animation';
+import {NavigationEnd, Router} from '@angular/router';
+import {Angulartics2GoogleAnalytics} from 'angulartics2/ga';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +10,7 @@ import {routerTransition} from './routing.animation';
   animations: [ routerTransition ]
 })
 export class AppComponent implements OnInit {
-  constructor() {
-
+  constructor(angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics) {
   }
   ngOnInit(){
   }
