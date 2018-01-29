@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
+import {EventEmitter, NgModule} from '@angular/core';
 import {
   MatButtonModule, MatCheckboxModule, MatMenuModule, MatSelectModule,
   MatInputModule, MatFormFieldModule, MatDialogModule, MatListModule,
@@ -48,10 +48,11 @@ import {LoginService} from './services/login.service';
     MatMenuModule, MatSelectModule, FormsModule, MatInputModule,
     MatFormFieldModule, MatDialogModule, MatListModule, MatTableModule
   ],
-  providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent, AuthGuard, LoginService ],
+  providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent, AuthGuard, LoginService],
   bootstrap: [AppComponent],
   entryComponents: [SelectDialogComponent, MessageDialogComponent]
 })
+
 export class AppModule {
-  constructor(private _cookieService: CookieService) {}
+  constructor() {}
 }

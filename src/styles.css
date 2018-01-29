@@ -55,6 +55,11 @@ h2 {
 }
 mat-dialog-container {
   padding: 0!important;
+  justify-content: center;
+  display: flex!important;
+}
+mat-dialog-container > * {
+  width: 100%;
 }
 .cdk-overlay-backdrop { transition: none; }
 /* End Affecting all dialogs :'( */

@@ -22,6 +22,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   edificioActual : IEdificio;
   totalesEdificio: ITotal[];
   todosLosEdificios = [];
+  tieneTotales = true;
   titleTotales = "TOTALES DEL EDIFICIO";
   indexEdificio = -1;
 
@@ -37,6 +38,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
       this.totalesEdificio = this.edificioActual.totalesEdificio;
       this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
       this.todosLosEdificios = this.readRepartoFileService.getEdificios();
+      this.tieneTotales = this.readRepartoFileService.incluyeTotalesEdificio();
       scrollTo(0, 0);
     }, (err) => {
       if (this.readRepartoFileService.noHayArchivo){

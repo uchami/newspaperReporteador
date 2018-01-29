@@ -32,9 +32,12 @@ export class LoginComponent extends ComponentNamer implements OnInit {
   }
 
   loginAction(){
+    this.userValidation = null;
+    this.passwordValidation = null;
     this.userSent = this.user;
     this.passSent = this.password;
-    this.loginService.login(this.user, this.password, this.remember).subscribe(d => {
+    this.loginService.login(this.user, this.password).subscribe(data => {
+      this.loginService.onLoginLoad(data, this.remember);
       if(this.loginService.isActive()) {
         this.userValidation = true;
         this.passwordValidation = true;

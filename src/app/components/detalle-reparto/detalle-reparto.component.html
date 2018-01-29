@@ -1,7 +1,7 @@
 <div id="{{componentName}}">
 
   <div id="headerContent">
-    <h2 [innerHtml]="edificioActual.direccion"></h2><button (click)="toggleViewDetalle()" [innerHtml]="totalesButtonText"></button>
+    <h2 [innerHtml]="edificioActual.direccion"></h2><button (click)="toggleViewDetalle()" [innerHtml]="totalesButtonText" *ngIf="tieneTotales"></button>
   </div>
 
   <div id="content">

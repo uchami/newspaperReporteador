@@ -39,7 +39,6 @@ export class ReadRepartoFileService {
       fileName += "R";
       fileName += "" + today.getFullYear() + month + date;
       fileName += this.loginService.getCurrentUser().identificacion;
-      console.log(fileName);
       obs = this.http.get<IReparto>('./assets/files/'+ fileName +'.Txt');
       obs.subscribe(data => {
           this.reparto = data;
@@ -152,6 +151,9 @@ export class ReadRepartoFileService {
     } else {
       return null;
     }
+  }
+  incluyeTotalesEdificio() {
+    return (this.reparto.cabeceraReporte.incluyeTotalesEdificio == 1);
   }
 }
 

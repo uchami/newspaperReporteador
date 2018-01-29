@@ -5,8 +5,8 @@ include $path . 'BeforeValidException.php';
 include $path . 'ExpiredException.php';
 include $path . 'SignatureInvalidException.php';
 
-error_reporting(0);
-ini_set('display_errors', 0);
+//error_reporting(0);
+//ini_set('display_errors', 0);
 
 use \Firebase\JWT\JWT;
 $key = "newspaperKeyTest";
@@ -16,7 +16,8 @@ $pass = $_POST['password'];
 $pass = str_replace("96bf6314b679ba43775964fdd65aa0e4","",base64_decode($pass));
 
 // Create connection
-$db = new PDO('mysql:host=localhost;dbname=newspaperxxi;charset=utf8mb4', 'root', '', array(PDO::ATTR_EMULATE_PREPARES => false, 
+$db = new PDO('mysql:host=190.228.29.65;dbname=newspaperxxi;charset=utf8', 'gustavolss', 'logicielsoftware', 
+																								array(PDO::ATTR_EMULATE_PREPARES => false, 
                                                                                                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
 header( "Access-Control-Allow-Origin: *");
