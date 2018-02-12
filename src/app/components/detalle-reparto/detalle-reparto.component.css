@@ -15,7 +15,7 @@
   position: absolute;
   left: 3vw;
   max-width: 72vw;
-  word-break: break-all;
+  word-break: break-word;
 }
 #detallereparto #headerContent button {
   background-color: #65b2c9;

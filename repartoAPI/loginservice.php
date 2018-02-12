@@ -16,7 +16,7 @@ $pass = $_POST['password'];
 $pass = str_replace("96bf6314b679ba43775964fdd65aa0e4","",base64_decode($pass));
 
 // Create connection
-$db = new PDO('mysql:host=190.228.29.65;dbname=newspaperxxi;charset=utf8', 'gustavolss', 'logicielsoftware', 
+$db = new PDO('mysql:host=190.228.29.65;dbname=newspaperxxi;charset=utf8', 'usuarionewspaper', '6up50OkFVDr2YEm9SAKWzfnGh3Rb1g', 
 																								array(PDO::ATTR_EMULATE_PREPARES => false, 
                                                                                                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 

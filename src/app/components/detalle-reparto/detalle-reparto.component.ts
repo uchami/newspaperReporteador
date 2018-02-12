@@ -34,9 +34,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
 
   ngOnInit() {
     this.readRepartoFileService.getReparto().subscribe( data => {
-      this.edificioActual = this.readRepartoFileService.getEdificioActual();
-      this.totalesEdificio = this.edificioActual.totalesEdificio;
-      this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
+      this.updateIndicadores();
       this.todosLosEdificios = this.readRepartoFileService.getEdificios();
       this.tieneTotales = this.readRepartoFileService.incluyeTotalesEdificio();
       scrollTo(0, 0);
@@ -50,19 +48,21 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
   nextEdificio() {
     this.readRepartoFileService.setNextIndexEdificio();
     const prevIndex = this.indexEdificio;
-    this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
+    this.updateIndicadores();
     if(prevIndex == this.indexEdificio){
       //Termino el reparto
       this.router.navigate(['final-reparto']);
     }
-    this.edificioActual = this.readRepartoFileService.getEdificioActual();
-    this.totalesEdificio = this.edificioActual.totalesEdificio;
   }
-  prevEdificio(){
-    this.readRepartoFileService.setPrevIndexEdificio();
+  updateIndicadores(){
     this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
     this.edificioActual = this.readRepartoFileService.getEdificioActual();
     this.totalesEdificio = this.edificioActual.totalesEdificio;
+    console.log(this.totalesEdificio);
+  }
+  prevEdificio(){
+    this.readRepartoFileService.setPrevIndexEdificio();
+    this.updateIndicadores();
   }
   showEdificioSelect() {
     let selectDialogRef = this.dialog.open(SelectDialogComponent, {
@@ -75,8 +75,7 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
       if(result != null){
         //navigate to edificio
         this.readRepartoFileService.setIndexEdificio(result.value);
-        this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
-        this.edificioActual = this.readRepartoFileService.getEdificioActual();
+        this.updateIndicadores();
       }
     });
   }

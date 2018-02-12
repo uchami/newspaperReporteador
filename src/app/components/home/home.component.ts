@@ -58,7 +58,7 @@ export class HomeComponent extends ComponentNamer implements OnInit {
       }, 0);
     }
     else{
-      this.readRepartoFileService.getReparto().subscribe( data => {
+      this.readRepartoFileService.getReparto(true).subscribe( data => {
         this.selectedRepartidor = this.readRepartoFileService.getRepartidorName(this.selectedRepartidorId);
         this.repartidores = this.readRepartoFileService.getRepartidores();
         const cabecera = this.readRepartoFileService.getCabeceraReporte();

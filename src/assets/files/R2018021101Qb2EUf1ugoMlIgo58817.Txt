@@ -1,0 +1,878 @@
+{
+    "cabeceraReporte": {
+        "nombreParada": "PARADA GUS",
+        "fechaDeReparto": "10/02/2018",
+        "orden": "ORDENADO POR: CALLE",
+        "fechaHoraCreacion": "10/02/2018 21:14:28",
+        "incluyeTotalesEdificio": 1
+    },
+       "cuerpoReporte": {
+             "repartidores": [{
+              "repartidorId": 5,
+              "nombreRepartidor": "ROBERTO",
+                "edificios": [{
+                 "direccion": "330 1590",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "332  BIS 740",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "332  BIS 966",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "332  BIS 1071",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "333 1171",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONICA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONICA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "333 1264",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "333  BIS 786",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "334 740",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ALVEAR 2725",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ALVEAR 3383",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ALVEAR 3577",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "ALVEAR 3780",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONICA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONICA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AZCUENAGA 2831",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AZCUENAGA 3133",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "AZCUENAGA 3235",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BARANDA 2497",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BARANDA 3291",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BARANDA 3292",
+                   "departamentos": [{
+                    "nombre": "PADRES",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "EL LOMENSE SUPLEMENTO POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "EL LOMENSE SUPLEMENTO POPULAR"
+                   }, 
+                   {
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "BERUTI 886",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "GUTIERREZ 648",
+                   "departamentos": [{
+                    "nombre": "58",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "2",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "133",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 2,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "HUSARES 2935",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LAPRIDA 834",
+                   "departamentos": [{
+                    "nombre": "SOBRINA",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LAPRIDA 1050",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LARREA 3116",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LARREA 3163",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LARREA 3278",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "LARREA 3286",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "MARTIN RODRIGUEZ 2800",
+                   "departamentos": [{
+                    "nombre": "23",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "OHIGGINS 2795",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "SARRATEA 1453",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "SMITH 971",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CRONICA",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CRONICA"
+                   }]
+                   }, 
+                   {
+                    "direccion": "TRIUNVIRATO 1500",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "URQUIZA 3030",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VELEZ  SARFIEL 2712",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VICENTE LOPEZ 2878",
+                   "departamentos": [{
+                    "nombre": "",
+                    "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "POPULAR",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "POPULAR"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VICENTE LOPEZ 3001",
+                   "departamentos": [{
+                    "nombre": "14 A",
+                    "observacion": "ENTREGAR EN MANO",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "9 A",
+                       "observacion": "DEJAR BAJO PUERTA",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "8 B",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "LA NACION",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 0,
+                       "cantidad": 1
+                      }, 
+                      {
+                       "nombre": "GENIOS",
+                       "feriado": 0,
+                       "suscripcion": 0,
+                       "extra": 1,
+                       "cantidad": 1
+                      }]
+                      }, 
+                      {
+                       "nombre": "1 D",
+                       "observacion": "",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }],
+                   "totalesEdificio": [{
+                    "color": 0,
+                    "cantidad": 3,
+                    "publicacion": "CLARIN"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "NACION"
+                   }, 
+                   {
+                    "color": 0,
+                    "cantidad": 1,
+                    "publicacion": "GENIOS"
+                   }]
+                   }, 
+                   {
+                    "direccion": "VICENTE LOPEZ 3428",
+                   "departamentos": [{
+                    "nombre": "8 DT  B",
+                    "observacion": "RETIRA DEL PUESTO",
+                      "publicaciones": [{
+                       "nombre": "CLARIN",
+                       "feriado": 0,
+                       "suscripcion": 1,
+                       "extra": 0,
+                       "cantidad": 1
+                      }]
+                   }]
+                      , 
+                   "totalesEdificio": [{
+                    "color": 1,
+                    "cantidad": 1,
+                    "publicacion": "CLARIN"
+                   }]
+                }],
+                "totalesRepartidor": [{
+                 "color": 0,
+                 "cantidad": 17,
+                 "publicacion": "POPULAR"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 3,
+                 "publicacion": "CRONICA"
+                }, 
+                {
+                 "color": 1,
+                 "cantidad": 21,
+                 "publicacion": "CLARIN"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "EL LOMENSE SUPLEMENTO POPULAR"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "NACION"
+                }, 
+                {
+                 "color": 0,
+                 "cantidad": 1,
+                 "publicacion": "GENIOS"
+                }, 
+                {
+                }]
+             }]
+       }
+}
+

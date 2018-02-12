@@ -1,5 +1,5 @@
 CACHE MANIFEST
-
+#v3
 assets/images/finDelRepartoHeader.png
 inline.bundle.js
 polyfills.bundle.js
@@ -46,3 +46,4 @@ assets/images/userWrong.png
 
 NETWORK:
 assets/files
+http://listadodereparto.lss.com.ar/repartoAPI/
