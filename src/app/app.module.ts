@@ -20,7 +20,7 @@ import {DetalleEdificioComponent } from './components/detalle-edificio/detalle-e
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { TotalesComponent } from './components/totales/totales.component';
 import {FinalRepartoComponent} from './components/final-reparto/final-reparto.component';
-import {MessageDialogComponent } from './components/message-modal/message-dialog.component';
+import {MessageDialogComponent } from './components/message-dialog/message-dialog.component';
 import { TotalesDelRepartidorComponent } from './components/totales-del-repartidor/totales-del-repartidor.component';
 import {AuthGuard} from './_guards';
 import {LoginService} from './services/login.service';

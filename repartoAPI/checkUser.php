@@ -9,51 +9,44 @@ include $path . 'SignatureInvalidException.php';
 //ini_set('display_errors', 0);
 
 use \Firebase\JWT\JWT;
-$key = "newspaperKeyTest";
+$key = "newspaperAnotherKey";
 
-$user = $_POST['username'];
-$pass = $_POST['password'];
-$pass = str_replace("96bf6314b679ba43775964fdd65aa0e4","",base64_decode($pass));
+$user = $_POST['identifier'];
+$id = intval($_POST['id']);
 
 // Create connection
 $db = new PDO('mysql:host=190.228.29.65;dbname=newspaperxxi;charset=utf8', 'usuarionewspaper', '6up50OkFVDr2YEm9SAKWzfnGh3Rb1g', 
 																								array(PDO::ATTR_EMULATE_PREPARES => false, 
                                                                                                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-
 header( "Access-Control-Allow-Origin: *");
 header( "Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 header("Content-Type: application/json; charset=UTF-8");
 header ("Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT");
 
-function login($db, $user, $pass) {
-    $sql = "SELECT ID, Identificacion, Usuario, Contrasena,RptReparto_Habilitado FROM Usuarios ".
-		"WHERE Usuario = ? and ".
-		"Contrasena = BINARY ? ".
-		"ORDER BY RptReparto_Habilitado DESC";
+function checkUser($db, $user, $id) {
+    $sql = "SELECT RptReparto_Habilitado FROM Usuarios ".
+		"WHERE Identificacion = BINARY ? and ".
+		"Id = ?";
 	$stmt = $db->prepare($sql);
 	$stmt->bindValue(1, $user, PDO::PARAM_STR);
-	$stmt->bindValue(2, $pass, PDO::PARAM_STR);
+	$stmt->bindValue(2, $id, PDO::PARAM_INT);
 	$stmt->execute();
 	return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
  
 $response = '{"data": "?" }';
 try {
-  $res = login($db, $user, $pass);
+  $res = checkUser($db, $user, $id);
   $row = $res[0];
   if($row == null){
 	  $token = '{
 	  "status": false,
-	  "error": "Login failed"
+	  "error": "Check failed"
 	}';
 	$jwt = JWT::encode($token, $key);
-	echo(str_replace("?",$jwt,$response));
+	echo(str_replace("?",$jwt,$response));  
   } else {
-  	if($row['RptReparto_Habilitado'] == 1){
-		$token = '{ "status": true,"id":'. $row['ID'] .' , "username": "'.$row['Usuario'].'","identificacion": "'. $row['Identificacion'] . '"}';
-  	} else {
-  		$token = '{"status": false, "error":"Deshabilitado"}';
-  	}
+	$token = '{ "status": true,"habilitado":'.$row['RptReparto_Habilitado'].'}';
 	$jwt = JWT::encode($token, $key);
 	echo(str_replace("?",$jwt,$response));  
   }
@@ -63,7 +56,7 @@ try {
 	  "error": "error"
 	}';
 	$jwt = JWT::encode($token, $key);
-	echo(str_replace("?",$jwt,$response));
+	echo(str_replace("?",$jwt,$response));  
 }
 
 ?>

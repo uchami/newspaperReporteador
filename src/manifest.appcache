@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#v3
+#v4
 assets/images/finDelRepartoHeader.png
 inline.bundle.js
 polyfills.bundle.js
@@ -43,6 +43,7 @@ assets/images/lockRight.png
 assets/images/lockWrong.png
 assets/images/userRight.png
 assets/images/userWrong.png
+www.google-analytics.com/analytics.js
 
 NETWORK:
 assets/files

@@ -28,7 +28,10 @@ export class LoginComponent extends ComponentNamer implements OnInit {
   remember = false;
   ngOnInit() {
     if(this.loginService.isActive()){
-      this.router.navigate(['home']);
+      this.loginService.checkUser().subscribe(data => {
+        this.loginService.onCheckUserLoad(data);
+        this.router.navigate(['home']);
+      });
     }
   }
 

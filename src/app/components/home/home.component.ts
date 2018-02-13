@@ -9,7 +9,7 @@ import 'rxjs/add/observable/timer';
 import 'rxjs/add/operator/map';
 import {ActivatedRoute, Router} from '@angular/router';
 import 'rxjs/add/operator/takeWhile';
-import {MessageDialogComponent} from '../message-modal/message-dialog.component';
+import {MessageDialogComponent} from '../message-dialog/message-dialog.component';
 
 
 @Component({

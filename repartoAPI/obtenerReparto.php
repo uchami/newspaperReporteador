@@ -14,5 +14,5 @@ header ("Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT");
 			echo("Not found");
 		}
 	}
-	echo($reparto);
+	echo(utf8_encode($reparto));
 ?>

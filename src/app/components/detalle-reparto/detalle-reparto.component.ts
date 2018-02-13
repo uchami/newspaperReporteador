@@ -58,7 +58,6 @@ export class DetalleRepartoComponent extends ComponentNamer implements OnInit {
     this.indexEdificio = this.readRepartoFileService.getIndexEdificio();
     this.edificioActual = this.readRepartoFileService.getEdificioActual();
     this.totalesEdificio = this.edificioActual.totalesEdificio;
-    console.log(this.totalesEdificio);
   }
   prevEdificio(){
     this.readRepartoFileService.setPrevIndexEdificio();
