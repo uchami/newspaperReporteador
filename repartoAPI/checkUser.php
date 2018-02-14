@@ -40,8 +40,8 @@ try {
   $row = $res[0];
   if($row == null){
 	  $token = '{
-	  "status": false,
-	  "error": "Check failed"
+	  "status": true,
+	  "habilitado": 0
 	}';
 	$jwt = JWT::encode($token, $key);
 	echo(str_replace("?",$jwt,$response));  
