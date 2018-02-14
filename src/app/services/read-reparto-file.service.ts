@@ -55,6 +55,9 @@ export class ReadRepartoFileService {
             if (localReparto && this.repartoIsValid(localReparto)) {
               this.reparto = localReparto;
               this.noHayArchivo = false;
+            } else {
+              this.reparto = null;
+              this.noHayArchivo = false;
             }
           }
         });

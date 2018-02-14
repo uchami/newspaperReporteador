@@ -31,6 +31,9 @@ export class LoginComponent extends ComponentNamer implements OnInit {
       this.loginService.checkUser().subscribe(data => {
         this.loginService.onCheckUserLoad(data);
         this.router.navigate(['home']);
+      }, (err) => {
+        this.loginService.validity = true;
+        this.router.navigate(['home']);
       });
     }
   }

@@ -76,9 +76,15 @@ export class LoginService {
     if(res.status && res.habilitado == 1){
       this.validity = true;
     } else {
-      this.validity = false;
-      this.currentUser = null;
-      this.cookieService.remove('currentUser');
+      console.log(res);
+      console.log(res.habilitado);
+      if(res.habilitado && res.habilitado == 0) {
+        this.validity = true;
+      } else{
+        this.validity = false;
+        this.currentUser = null;
+        this.cookieService.remove('currentUser');
+      }
     }
   }
   isActive() {

@@ -1,1 +1,11 @@
 AddType text/cache-manifest .appcache
+AddType application/manifest+json json
+
+<Files "manifest.json">
+  AddType application/manifest+jsonx json
+</Files>
+
+#Activate RewriteEngine
+RewriteEngine On
+# Redirect /.well-known URLs
+RewriteRule .well-known/manifest.json /manifest.json

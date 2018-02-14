@@ -59,18 +59,24 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     }
     else{
       this.readRepartoFileService.getReparto(true).subscribe( data => {
-        this.selectedRepartidor = this.readRepartoFileService.getRepartidorName(this.selectedRepartidorId);
-        this.repartidores = this.readRepartoFileService.getRepartidores();
-        const cabecera = this.readRepartoFileService.getCabeceraReporte();
-        this.nombreParada = cabecera.nombreParada;
-        this.fechaListado = cabecera.fechaDeReparto;
-        this.ordenamiento = cabecera.orden.replace('ORDENADO POR: ','');
+        this.loadReparto();
       }, (err) => {
         if (this.readRepartoFileService.noHayArchivo){
           this.router.navigate(['home/-1/404']);
+        } else {
+            this.loadReparto();
         }
       });
     }
+  }
+
+  loadReparto(){
+    this.selectedRepartidor = this.readRepartoFileService.getRepartidorName(this.selectedRepartidorId);
+    this.repartidores = this.readRepartoFileService.getRepartidores();
+    const cabecera = this.readRepartoFileService.getCabeceraReporte();
+    this.nombreParada = cabecera.nombreParada;
+    this.fechaListado = cabecera.fechaDeReparto;
+    this.ordenamiento = cabecera.orden.replace('ORDENADO POR: ','');
   }
 
   openDialog(): void {
