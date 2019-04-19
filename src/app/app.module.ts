@@ -24,6 +24,7 @@ import {MessageDialogComponent } from './components/message-dialog/message-dialo
 import { TotalesDelRepartidorComponent } from './components/totales-del-repartidor/totales-del-repartidor.component';
 import {AuthGuard} from './_guards';
 import {LoginService} from './services/login.service';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -42,13 +43,14 @@ import {LoginService} from './services/login.service';
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
+    HttpModule,
     NoopAnimationsModule,
     // Material Design
     BrowserAnimationsModule, MatButtonModule, MatCheckboxModule,
     MatMenuModule, MatSelectModule, FormsModule, MatInputModule,
     MatFormFieldModule, MatDialogModule, MatListModule, MatTableModule
   ],
-  providers: [CookieService, ReadRepartoFileService, HttpClientModule, DetalleEdificioComponent, AuthGuard, LoginService],
+  providers: [CookieService, ReadRepartoFileService, HttpClientModule, HttpModule, DetalleEdificioComponent, AuthGuard, LoginService],
   bootstrap: [AppComponent],
   entryComponents: [SelectDialogComponent, MessageDialogComponent]
 })

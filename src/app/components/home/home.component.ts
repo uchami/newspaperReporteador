@@ -33,8 +33,6 @@ export class HomeComponent extends ComponentNamer implements OnInit {
     super();
   }
   ngOnInit() {
-
-
     const predefinedRepId = parseInt(this.route.snapshot.paramMap.get('repId'));
     if(predefinedRepId && predefinedRepId != -1) {
       this.selectedRepartidorId = predefinedRepId;

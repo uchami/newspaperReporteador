@@ -35,11 +35,20 @@ export class ReadRepartoFileService {
       const today = new Date();
       const month = (today.getMonth() + 1) < 10 ? ('0' + (today.getMonth() + 1) ) : (today.getMonth() + 1);
       const date = today.getDate() < 10 ? ('0' + today.getDate()) : today.getDate();
+      
       let fileName = '';
-      fileName += 'R';
-      fileName += '' + today.getFullYear() + month + date;
-      fileName += this.loginService.getCurrentUser().identificacion;
-      fileName += '.Txt';
+      if(this.loginService.getCurrentUser().id == 1){
+        fileName = 'R20190420ABCDEFGHIJKLMNOPQRSTUV.Txt';
+      }
+      else{
+        
+        fileName += 'R';
+        fileName += '' + today.getFullYear() + month + date;
+        fileName += this.loginService.getCurrentUser().identificacion;
+        fileName += '.Txt';
+      }
+
+      
       let headers = new HttpHeaders();
       headers = headers.set('Content-Type','application/x-www-form-urlencoded');
       obs = this.http.get<IReparto>("http://listadodereparto.lss.com.ar/repartoAPI/obtenerReparto.php?identifier=" + fileName , {headers: headers});
